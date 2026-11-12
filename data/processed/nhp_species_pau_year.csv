@@ -1,0 +1,206 @@
+year,species,pau_label,n_animals
+2019,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,8
+2019,"Monkeys, Capuchins Panamanian White-faced (Cebus imitator)",Fundamental research,11
+2019,"Monkeys, Capuchins Tufted (Cebus apella)",Fundamental research,4
+2019,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,1859
+2019,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,1142
+2019,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,45
+2019,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),35
+2019,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,3022
+2019,"Monkeys, Green (Chlorocebus sabaeus)",Development of products/appliances,114
+2019,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,37
+2019,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),728
+2019,"Monkeys, Japanese macaque (Macaca fuscata)",Fundamental research,140
+2019,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2019,"Monkeys, Lemurs Jolly's Mouse (Microcebus jollyae)",Fundamental research,100
+2019,"Monkeys, Marmoset",Fundamental research,19
+2019,"Monkeys, Marmoset",Medical research (human/animal disease),43
+2019,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,167
+2019,"Monkeys, Rhesus (Macaca mulatta)",Education and training,39
+2019,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,68
+2019,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),15
+2019,"Monkeys, Rhesus (Macaca mulatta)",Regulatory testing,93
+2019,"Monkeys, Tamarins Brown-mantled (Leontocebus fuscicollis)",Fundamental research,41
+2019,"Monkeys, Tamarins Emperor (Saguinus imperator)",Fundamental research,35
+2019,"Monkeys, Tamarins Golden Lion (Leontopithecus rosalia)",Fundamental research,5
+2019,"Monkeys, Tamarins Weddell's Saddle-back (Leontocebus weddelli)",Fundamental research,35
+2020,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,12
+2020,"Apes, White-handed Gibbons (Hylobates lar)",Fundamental research,2
+2020,"Monkeys, Capuchins Tufted (Cebus apella)",Fundamental research,3
+2020,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,1575
+2020,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,820
+2020,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,113
+2020,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),55
+2020,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,3527
+2020,"Monkeys, Green (Chlorocebus sabaeus)",Development of products/appliances,92
+2020,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,50
+2020,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,30
+2020,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),662
+2020,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,200
+2020,"Monkeys, Lemurs Coquerel’s Sifaka (Propithecus coquereli)",Fundamental research,17
+2020,"Monkeys, Lemurs Jolly's Mouse (Microcebus jollyae)",Fundamental research,100
+2020,"Monkeys, Lemurs Ring-tailed (Lemur catta)",Fundamental research,1
+2020,"Monkeys, Marmoset",Fundamental research,28
+2020,"Monkeys, Marmoset",Medical research (human/animal disease),16
+2020,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,225
+2020,"Monkeys, Rhesus (Macaca mulatta)",Education and training,256
+2020,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,218
+2020,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),5
+2020,"Monkeys, Rhesus (Macaca mulatta)",Regulatory testing,309
+2021,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,2
+2021,"Monkeys, Capuchins Tufted (Cebus apella)",Fundamental research,38
+2021,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,2178
+2021,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,2420
+2021,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,188
+2021,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),14
+2021,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,2968
+2021,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,50
+2021,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,30
+2021,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),727
+2021,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2021,"Monkeys, Marmoset",Fundamental research,62
+2021,"Monkeys, Marmoset",Medical research (human/animal disease),88
+2021,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,97
+2021,"Monkeys, Rhesus (Macaca mulatta)",Education and training,58
+2021,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,232
+2021,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),15
+2021,"Monkeys, Ruwenzori Colobus (Colobus angolensis ruwenzorii)",Fundamental research,153
+2021,"Monkeys, Vervet (Chlorocebus pygerythrus)",Fundamental research,45
+2022,"Apes, Bonobo (Pan paniscus)",Fundamental research,7
+2022,"Apes, Chimpanzee (Pan troglodytes)",Fundamental research,5
+2022,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,2
+2022,"Apes, Sumatran Orangutan (Pongo abelii)",Medical research (human/animal disease),6
+2022,"Apes, Western Lowland Gorilla (Gorilla gorilla gorilla)",Medical research (human/animal disease),7
+2022,"Apes, White-handed Gibbons (Hylobates lar)",Medical research (human/animal disease),1
+2022,"Monkeys, African Green (Chlorocebus aethiops)",Education and training,4
+2022,"Monkeys, African Green (Chlorocebus aethiops)",Medical research (human/animal disease),4
+2022,"Monkeys, Baboon Olive (Papio anubis)",Medical research (human/animal disease),10
+2022,"Monkeys, Barbary Macaque (Macaca sylvanus)",Medical research (human/animal disease),3
+2022,"Monkeys, Capuchins Tufted (Cebus apella)",Fundamental research,107
+2022,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,2431
+2022,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,855
+2022,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,38
+2022,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),40
+2022,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,4287
+2022,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,62
+2022,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,10
+2022,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),446
+2022,"Monkeys, Howler Mantled (Alouatta palliata)",Fundamental research,20
+2022,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2022,"Monkeys, Lemurs Coquerel’s Sifaka (Propithecus coquereli)",Fundamental research,169
+2022,"Monkeys, Lemurs Jolly's Mouse (Microcebus jollyae)",Fundamental research,100
+2022,"Monkeys, Lemurs Ring-tailed (Lemur catta)",Medical research (human/animal disease),10
+2022,"Monkeys, Lion-tailed Macaque (Macaca silenus)",Medical research (human/animal disease),3
+2022,"Monkeys, Marmoset",Fundamental research,87
+2022,"Monkeys, Marmoset",Medical research (human/animal disease),96
+2022,"Monkeys, Nepal Gray Langur (Semnopithecus schistaceus)",Fundamental research,110
+2022,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,1
+2022,"Monkeys, Rhesus (Macaca mulatta)",Education and training,1
+2022,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,248
+2022,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),11
+2022,"Monkeys, Ruwenzori Colobus (Colobus angolensis ruwenzorii)",Fundamental research,149
+2022,"Monkeys, Spider Geoffroy's (Ateles geoffroyi)",Fundamental research,34
+2022,"Monkeys, Tamarins Golden Lion (Leontopithecus rosalia)",Medical research (human/animal disease),7
+2022,"Monkeys, Vervet (Chlorocebus pygerythrus)",Fundamental research,195
+2022,"Monkeys, White-faced Saki (Pithecia pithecia)",Medical research (human/animal disease),2
+2023,"Apes, Bonobo (Pan paniscus)",Fundamental research,7
+2023,"Apes, Chimpanzee (Pan troglodytes)",Fundamental research,53
+2023,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,2
+2023,"Apes, Western Lowland Gorilla (Gorilla gorilla gorilla)",Fundamental research,6
+2023,"Monkeys, African Green (Chlorocebus aethiops)",Development of products/appliances,18
+2023,"Monkeys, African Green (Chlorocebus aethiops)",Medical research (human/animal disease),3
+2023,"Monkeys, African Green (Chlorocebus aethiops)",Regulatory testing,48
+2023,"Monkeys, Capuchins Colombian White-faced (Cebus capucinus)",Fundamental research,105
+2023,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,4680
+2023,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,3060
+2023,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,140
+2023,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),60
+2023,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,4051
+2023,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,60
+2023,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,4
+2023,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),528
+2023,"Monkeys, Howler Mantled (Alouatta palliata)",Fundamental research,20
+2023,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2023,"Monkeys, Lemurs Coquerel’s Sifaka (Propithecus coquereli)",Fundamental research,25
+2023,"Monkeys, Lemurs Jolly's Mouse (Microcebus jollyae)",Fundamental research,100
+2023,"Monkeys, Marmoset",Development of products/appliances,9
+2023,"Monkeys, Marmoset",Fundamental research,351
+2023,"Monkeys, Marmoset",Medical research (human/animal disease),147
+2023,"Monkeys, Nepal Gray Langur (Semnopithecus schistaceus)",Fundamental research,143
+2023,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,412
+2023,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),18
+2023,"Monkeys, Ruwenzori Colobus (Colobus angolensis ruwenzorii)",Fundamental research,145
+2023,"Monkeys, Spider Geoffroy's (Ateles geoffroyi)",Fundamental research,34
+2023,"Monkeys, Squirrels Central American (Saimiri oerstedii)",Fundamental research,3
+2023,"Monkeys, Tamarins Emperor (Saguinus imperator)",Fundamental research,17
+2023,"Monkeys, Tamarins Weddell's Saddle-back (Leontocebus weddelli)",Fundamental research,13
+2023,"Monkeys, Vervet (Chlorocebus pygerythrus)",Fundamental research,247
+2024,"Apes, Chimpanzee (Pan troglodytes)",Fundamental research,6
+2024,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,2
+2024,"Monkeys, African Green (Chlorocebus aethiops)",Regulatory testing,90
+2024,"Monkeys, Capuchins Colombian White-faced (Cebus capucinus)",Fundamental research,105
+2024,"Monkeys, Capuchins Panamanian White-faced (Cebus imitator)",Education and training,10
+2024,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,2861
+2024,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,444
+2024,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,95
+2024,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),42
+2024,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,4938
+2024,"Monkeys, Green (Chlorocebus sabaeus)",Development of products/appliances,2
+2024,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,79
+2024,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,4
+2024,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),533
+2024,"Monkeys, Howler Mantled (Alouatta palliata)",Education and training,60
+2024,"Monkeys, Howler Mantled (Alouatta palliata)",Fundamental research,50
+2024,"Monkeys, Howler Yucatán Black (Alouatta pigra)",Fundamental research,28
+2024,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2024,"Monkeys, Lemurs Coquerel’s Sifaka (Propithecus coquereli)",Fundamental research,28
+2024,"Monkeys, Lemurs Red-bellied (Eulemur rubriventer)",Fundamental research,100
+2024,"Monkeys, Lemurs Red-fronted (Eulemur rufifrons)",Fundamental research,100
+2024,"Monkeys, Marmoset",Fundamental research,18
+2024,"Monkeys, Marmoset",Medical research (human/animal disease),87
+2024,"Monkeys, Marmosets, Common (Callithrix jacchus)",Fundamental research,135
+2024,"Monkeys, Marmosets, Common (Callithrix jacchus)",Medical research (human/animal disease),49
+2024,"Monkeys, Nepal Gray Langur (Semnopithecus schistaceus)",Fundamental research,143
+2024,"Monkeys, Panamanian Night (Aotus zonalis)",Education and training,15
+2024,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,16
+2024,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,222
+2024,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),29
+2024,"Monkeys, Rhesus (Macaca mulatta)",Regulatory testing,18
+2024,"Monkeys, Ruwenzori Colobus (Colobus angolensis ruwenzorii)",Fundamental research,145
+2024,"Monkeys, Spider Geoffroy's (Ateles geoffroyi)",Fundamental research,66
+2024,"Monkeys, Squirrels Central American (Saimiri oerstedii)",Fundamental research,3
+2024,"Monkeys, Tamarins Emperor (Saguinus imperator)",Fundamental research,26
+2024,"Monkeys, Tamarins Weddell's Saddle-back (Leontocebus weddelli)",Fundamental research,35
+2024,"Monkeys, Vervet (Chlorocebus pygerythrus)",Fundamental research,173
+2025,"Apes, Sumatran Orangutan (Pongo abelii)",Fundamental research,8
+2025,"Monkeys, African Green (Chlorocebus aethiops)",Development of products/appliances,12
+2025,"Monkeys, African Green (Chlorocebus aethiops)",Medical research (human/animal disease),32
+2025,"Monkeys, Baboon",Fundamental research,500
+2025,"Monkeys, Capuchins Colombian White-faced (Cebus capucinus)",Fundamental research,94
+2025,"Monkeys, Cynomolgus (Macaca fascicularis)",Development of products/appliances,2091
+2025,"Monkeys, Cynomolgus (Macaca fascicularis)",Education and training,434
+2025,"Monkeys, Cynomolgus (Macaca fascicularis)",Fundamental research,213
+2025,"Monkeys, Cynomolgus (Macaca fascicularis)",Medical research (human/animal disease),39
+2025,"Monkeys, Cynomolgus (Macaca fascicularis)",Regulatory testing,5586
+2025,"Monkeys, Green (Chlorocebus sabaeus)",Development of products/appliances,2
+2025,"Monkeys, Green (Chlorocebus sabaeus)",Education and training,45
+2025,"Monkeys, Green (Chlorocebus sabaeus)",Fundamental research,4
+2025,"Monkeys, Green (Chlorocebus sabaeus)",Medical research (human/animal disease),349
+2025,"Monkeys, Howler Mantled (Alouatta palliata)",Fundamental research,50
+2025,"Monkeys, Lemurs Black-and-white Ruffed (Varecia variegata)",Fundamental research,100
+2025,"Monkeys, Lemurs Red-bellied (Eulemur rubriventer)",Fundamental research,100
+2025,"Monkeys, Lemurs Red-fronted (Eulemur rufifrons)",Fundamental research,100
+2025,"Monkeys, Lemurs Ring-tailed (Lemur catta)",Fundamental research,5
+2025,"Monkeys, Marmosets, Common (Callithrix jacchus)",Development of products/appliances,9
+2025,"Monkeys, Marmosets, Common (Callithrix jacchus)",Fundamental research,168
+2025,"Monkeys, Marmosets, Common (Callithrix jacchus)",Medical research (human/animal disease),145
+2025,"Monkeys, Rhesus (Macaca mulatta)",Development of products/appliances,13
+2025,"Monkeys, Rhesus (Macaca mulatta)",Fundamental research,163
+2025,"Monkeys, Rhesus (Macaca mulatta)",Medical research (human/animal disease),33
+2025,"Monkeys, Ruwenzori Colobus (Colobus angolensis ruwenzorii)",Fundamental research,143
+2025,"Monkeys, Spider Geoffroy's (Ateles geoffroyi)",Fundamental research,25
+2025,"Monkeys, Squirrel Central American (Saimiri oerstedii)",Fundamental research,3
+2025,"Monkeys, Sykes (Cercopithecus mitis albogularis)",Fundamental research,10
+2025,"Monkeys, Tamarins Emperor (Saguinus imperator)",Fundamental research,17
+2025,"Monkeys, Tamarins Weddell's Saddle-back (Leontocebus weddelli)",Fundamental research,35
+2025,"Monkeys, Vervet (Chlorocebus pygerythrus)",Fundamental research,329

@@ -1,0 +1,22 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.ruff_cache/
+.env
+data/olac.duckdb
+data/olac.duckdb.wal
+data/raw/corpus/fulltext/
+data/raw/funding/
+data/raw/scorecard/pages/
+data/interim/
+dbt/target/
+dbt/logs/
+dbt/dbt_packages/
+.streamlit/secrets.toml
+paper/_output/
+
+# University scorecard results stay local until each institution has had its right of reply.
+data/processed/scorecard.csv
+data/processed/scorecard_evidence.csv
+data/scorecard/

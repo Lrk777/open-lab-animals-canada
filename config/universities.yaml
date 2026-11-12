@@ -1,0 +1,32 @@
+# Universities scored by the Openness Scorecard. U15 research universities plus other
+# institutions that appear on the CCAC transparency list or are large animal users.
+# `ccac_name` must match the CCAC certified-institutions page exactly.
+# `seeds` are optional starting URLs; the crawler also reads sitemaps and follows links.
+
+universities:
+  - {id: ubc, name: University of British Columbia, domain: ubc.ca, ccac_name: University of British Columbia, u15: true}
+  - {id: ualberta, name: University of Alberta, domain: ualberta.ca, ccac_name: University of Alberta, u15: true}
+  - {id: ucalgary, name: University of Calgary, domain: ucalgary.ca, ccac_name: University of Calgary, u15: true}
+  - {id: usask, name: University of Saskatchewan, domain: usask.ca, ccac_name: University of Saskatchewan, u15: true}
+  - {id: umanitoba, name: University of Manitoba, domain: umanitoba.ca, ccac_name: University of Manitoba, u15: true}
+  - {id: western, name: Western University, domain: uwo.ca, ccac_name: University of Western Ontario, u15: true}
+  - {id: mcmaster, name: McMaster University, domain: mcmaster.ca, ccac_name: McMaster University, u15: true}
+  - {id: waterloo, name: University of Waterloo, domain: uwaterloo.ca, ccac_name: University of Waterloo, u15: true}
+  - {id: utoronto, name: University of Toronto, domain: utoronto.ca, ccac_name: University of Toronto, u15: true}
+  - {id: queens, name: Queen's University, domain: queensu.ca, ccac_name: Queen's University, u15: true}
+  - {id: uottawa, name: University of Ottawa, domain: uottawa.ca, ccac_name: University of Ottawa, u15: true}
+  - {id: mcgill, name: McGill University, domain: mcgill.ca, ccac_name: McGill University, u15: true}
+  - {id: umontreal, name: Université de Montréal, domain: umontreal.ca, ccac_name: Université de Montréal, u15: true}
+  - {id: ulaval, name: Université Laval, domain: ulaval.ca, ccac_name: Université Laval, u15: true}
+  - {id: dal, name: Dalhousie University, domain: dal.ca, ccac_name: Dalhousie University, u15: true}
+  - {id: yorku, name: York University, domain: yorku.ca, ccac_name: York University, u15: false}
+  - {id: uoguelph, name: University of Guelph, domain: uoguelph.ca, ccac_name: University of Guelph, u15: false}
+  - {id: sfu, name: Simon Fraser University, domain: sfu.ca, ccac_name: Simon Fraser University, u15: false}
+  - {id: uvic, name: University of Victoria, domain: uvic.ca, ccac_name: University of Victoria, u15: false}
+  - {id: carleton, name: Carleton University, domain: carleton.ca, ccac_name: Carleton University, u15: false}
+  - {id: concordia, name: Concordia University, domain: concordia.ca, ccac_name: Concordia University, u15: false}
+  - {id: mun, name: Memorial University of Newfoundland, domain: mun.ca, ccac_name: Memorial University of Newfoundland, u15: false}
+  - {id: brock, name: Brock University, domain: brocku.ca, ccac_name: Brock University, u15: false}
+  - {id: trent, name: Trent University, domain: trentu.ca, ccac_name: Trent University, u15: false}
+  - {id: macewan, name: MacEwan University, domain: macewan.ca, ccac_name: MacEwan University, u15: false}
+  - {id: tmu, name: Toronto Metropolitan University, domain: torontomu.ca, ccac_name: Toronto Metropolitan University, u15: false}

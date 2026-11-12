@@ -1,0 +1,11 @@
+{
+  "title": "Open Lab Animals Canada: open data on animal-based science in Canada (CCAC 2011-2025), international transparency comparison, and primate-research reporting audit",
+  "upload_type": "dataset",
+  "description": "Machine-readable CCAC Animal Data Reports 2011-2025 with a species crosswalk and data-quality log; nonhuman-primate comparison with Great Britain, the EU and the US; a 12-dimension Transparency Index; a University Openness Scorecard; CIHR/NSERC funding by research approach; and an ARRIVE 2.0 reporting audit of Canadian primate neuroscience papers. Fully reproducible from public sources.",
+  "creators": [{"name": "[Surname, Given name]", "affiliation": "York University"}],
+  "keywords": ["animal research", "transparency", "open data", "CCAC", "nonhuman primates", "ARRIVE", "meta-research", "Canada"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng",
+  "version": "0.1.0"
+}

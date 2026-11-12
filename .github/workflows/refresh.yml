@@ -1,0 +1,50 @@
+name: refresh
+
+# Weekly: re-download upstream sources, rebuild everything, and open a pull request if any
+# upstream file changed (e.g. CCAC publishes a new annual report or silently edits an old one).
+on:
+  schedule:
+    - cron: "17 9 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: astral-sh/setup-uv@v3
+      - name: Install
+        run: |
+          uv venv --python 3.12 .venv
+          uv pip install -e ".[dev,dbt]"
+      - name: Download with checksum manifest
+        run: .venv/bin/python -m olac.ingest.download --force
+      - name: Rebuild
+        run: |
+          .venv/bin/python -m olac.ingest.ccac
+          .venv/bin/python -m olac.ingest.intl
+          .venv/bin/python -m olac.dq
+          .venv/bin/python -m olac.analysis.index
+          .venv/bin/python -m olac.analysis.trends
+          .venv/bin/python -m olac.audit.corpus
+          .venv/bin/python -m olac.audit.extract --backend rules
+          .venv/bin/python -m olac.audit.its
+          .venv/bin/python -m olac.db
+          .venv/bin/dbt build --project-dir dbt --profiles-dir dbt
+      - name: Changelog entry
+        run: |
+          if ! git diff --quiet -- data/raw/manifest.json; then
+            echo "- $(date -u +%F): upstream change detected: $(git diff --name-only -- data/ | tr '\n' ' ')" >> CHANGELOG.md
+          fi
+      - uses: peter-evans/create-pull-request@v6
+        with:
+          title: "Data refresh: upstream sources changed"
+          commit-message: "Data refresh from upstream sources"
+          branch: data-refresh
+          body: |
+            Automated weekly refresh. Review `data/raw/manifest.json` for which upstream files changed,
+            `docs/data_quality_report.md` for new data-quality issues, and the dbt test results.

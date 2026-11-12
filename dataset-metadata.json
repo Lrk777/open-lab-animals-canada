@@ -1,0 +1,9 @@
+{
+  "title": "Open Lab Animals Canada",
+  "id": "[kaggle-username]/open-lab-animals-canada",
+  "subtitle": "Canadian animal-use statistics 2011-2025, transparency index, primate reporting audit",
+  "description": "See docs/datasheet.md in the source repository. Kaggle upload: `kaggle datasets create -p data/processed` after copying this file into that folder.",
+  "isPrivate": false,
+  "licenses": [{"name": "CC-BY-4.0"}],
+  "keywords": ["animals", "health", "public safety", "government", "nlp"]
+}

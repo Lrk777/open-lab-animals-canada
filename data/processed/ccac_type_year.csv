@@ -1,0 +1,224 @@
+year,animal_type,n_animals,source
+2011,Fish,1300259,pdf_table1
+2011,Mice,1090730,pdf_table1
+2011,Rats,225971,pdf_table1
+2011,Birds,224288,pdf_table1
+2011,Cattle,216588,pdf_table1
+2011,Reptiles/Amphibians,90010,pdf_table1
+2011,Pigs,61384,pdf_table1
+2011,Other animals,52058,pdf_table1
+2011,Other rodents,26532,pdf_table1
+2011,Guinea pigs,25095,pdf_table1
+2011,Dogs,10199,pdf_table1
+2011,Cats,6220,pdf_table1
+2011,Nonhuman primates,4355,pdf_table1
+2012,Mice,1247028,pdf_table1
+2012,Fish,832165,pdf_table1
+2012,Rats,224961,pdf_table1
+2012,Birds,192105,pdf_table1
+2012,Cattle,132551,pdf_table1
+2012,Pigs,80707,pdf_table1
+2012,Amphibians,72187,pdf_table1
+2012,Other animals,35846,pdf_table1
+2012,Guinea pigs,25296,pdf_table1
+2012,Dogs,13549,pdf_table1
+2012,Other rodents,10176,pdf_table1
+2012,Cats,6406,pdf_table1
+2012,Reptiles,6078,pdf_table1
+2012,Rabbits,5567,pdf_table1
+2012,Nonhuman primates,4387,pdf_table1
+2013,Mice,1233196,pdf_table1
+2013,Fish,970969,pdf_table1
+2013,Rats,228143,pdf_table1
+2013,Birds,192394,pdf_table1
+2013,Cattle,171394,pdf_table1
+2013,Amphibians,82542,pdf_table1
+2013,Pigs,37913,pdf_table1
+2013,Other animals,35430,pdf_table1
+2013,Guinea pigs,20687,pdf_table1
+2013,Dogs,14685,pdf_table1
+2013,Other rodents,10738,pdf_table1
+2013,Reptiles,8458,pdf_table1
+2013,Cats,6833,pdf_table1
+2013,Rabbits,5733,pdf_table1
+2013,Nonhuman primates,4069,pdf_table1
+2014,Fish,1612100,pdf_table1
+2014,Mice,1251405,pdf_table1
+2014,Birds,251152,pdf_table1
+2014,Rats,220619,pdf_table1
+2014,Cattle,163342,pdf_table1
+2014,Amphibians,127111,pdf_table1
+2014,Other animals,28302,pdf_table1
+2014,Pigs,24467,pdf_table1
+2014,Guinea pigs,20287,pdf_table1
+2014,Dogs,12893,pdf_table1
+2014,Other rodents,12177,pdf_table1
+2014,Reptiles,8554,pdf_table1
+2014,Cats,7188,pdf_table1
+2014,Rabbits,5467,pdf_table1
+2014,Nonhuman primates,5061,pdf_table1
+2015,Mice,1399724,pdf_table1
+2015,Fish,1191935,pdf_table1
+2015,Cattle,346601,pdf_table1
+2015,Rats,213672,pdf_table1
+2015,Birds,199468,pdf_table1
+2015,Amphibians,106523,pdf_table1
+2015,Guinea pigs,27776,pdf_table1
+2015,Pigs,20627,pdf_table1
+2015,Other animals,19057,pdf_table1
+2015,Other rodents,13506,pdf_table1
+2015,Dogs,9573,pdf_table1
+2015,Reptiles,6407,pdf_table1
+2015,Rabbits,5506,pdf_table1
+2015,Cats,5035,pdf_table1
+2015,Nonhuman primates,4942,pdf_table1
+2016,Fish,1602547,pdf_table1
+2016,Mice,1500156,pdf_table1
+2016,Cattle,526249,pdf_table1
+2016,Rats,236952,pdf_table1
+2016,Birds,204374,pdf_table1
+2016,Amphibians,95820,pdf_table1
+2016,Pigs,35063,pdf_table1
+2016,Other animals,27142,pdf_table1
+2016,Guinea pigs,22423,pdf_table1
+2016,Dogs,15093,pdf_table1
+2016,Other rodents,13866,pdf_table1
+2016,Cats,8526,pdf_table1
+2016,Nonhuman primates,7556,pdf_table1
+2016,Reptiles,7257,pdf_table1
+2016,Rabbits,5897,pdf_table1
+2017,Mice,1376389,pdf_table1
+2017,Birds,1192740,pdf_table1
+2017,Fish,842405,pdf_table1
+2017,Cattle,646283,pdf_table1
+2017,Rats,214190,pdf_table1
+2017,Amphibians,27349,pdf_table1
+2017,Other animals,26146,pdf_table1
+2017,Pigs,19390,pdf_table1
+2017,Guinea pigs,17821,pdf_table1
+2017,Other rodents,12183,pdf_table1
+2017,Dogs,11045,pdf_table1
+2017,Reptiles,10676,pdf_table1
+2017,Rabbits,6559,pdf_table1
+2017,Nonhuman primates,6412,pdf_table1
+2017,Cats,5879,pdf_table1
+2018,Mice,1468259,pdf_table1
+2018,Fish,811875,pdf_table1
+2018,Cattle,645147,pdf_table1
+2018,Birds,447927,pdf_table1
+2018,Rats,232489,pdf_table1
+2018,Amphibians,88475,pdf_table1
+2018,Pigs,32231,pdf_table1
+2018,Other animals,30045,pdf_table1
+2018,Guinea pigs,18216,pdf_table1
+2018,Dogs,14283,pdf_table1
+2018,Other rodents,13095,pdf_table1
+2018,Reptiles,9590,pdf_table1
+2018,Nonhuman primates,8522,pdf_table1
+2018,Rabbits,6581,pdf_table1
+2018,Cats,6082,pdf_table1
+2019,Mice,1391398,pdf_table1
+2019,Birds,1194320,pdf_table1
+2019,Fish,905822,pdf_table1
+2019,Cattle,632060,pdf_table1
+2019,Rats,176024,pdf_table1
+2019,Amphibians,115093,pdf_table1
+2019,Other animals,44610,pdf_table1
+2019,Pigs,33072,pdf_table1
+2019,Guinea pigs,20426,pdf_table1
+2019,Other rodents,13609,pdf_table1
+2019,Dogs,12195,pdf_table1
+2019,Reptiles,7925,pdf_table1
+2019,Cats,5894,pdf_table1
+2019,Rabbits,5269,pdf_table1
+2019,Nonhuman primates,4805,pdf_table1
+2020,Birds,2535052,pdf_table1
+2020,Mice,1085613,pdf_table1
+2020,Fish,594770,pdf_table1
+2020,Cattle,573502,pdf_table1
+2020,Rats,131229,pdf_table1
+2020,Amphibians,56051,pdf_table1
+2020,Pigs,20731,pdf_table1
+2020,Other animals,16124,pdf_table1
+2020,Guinea pigs,14922,pdf_table1
+2020,Other rodents,11844,pdf_table1
+2020,Dogs,8338,pdf_table1
+2020,Nonhuman primates,5932,pdf_table1
+2020,Rabbits,5462,pdf_table1
+2020,Reptiles,4470,pdf_table1
+2020,Cats,3738,pdf_table1
+2021,Mice,1259196,pdf_table1
+2021,Fish,1251563,pdf_table1
+2021,Birds,444596,pdf_table1
+2021,Cattle,405840,pdf_table1
+2021,Rats,129758,pdf_table1
+2021,Amphibians,76891,pdf_table1
+2021,Pigs,24684,pdf_table1
+2021,Other animals,23738,pdf_table1
+2021,Reptiles,16771,pdf_table1
+2021,Other rodents,16583,pdf_table1
+2021,Guinea pigs,15218,pdf_table1
+2021,Dogs,10055,pdf_table1
+2021,Nonhuman primates,6818,pdf_table1
+2021,Cats,6263,pdf_table1
+2021,Rabbits,4505,pdf_table1
+2022,Mice,1340916,pdf_table1
+2022,Fish,1198299,pdf_table1
+2022,Cattle,462025,pdf_table1
+2022,Birds,161669,pdf_table1
+2022,Rats,138329,pdf_table1
+2022,Amphibians,76613,pdf_table1
+2022,Pigs,33863,pdf_table1
+2022,Other animals,30336,pdf_table1
+2022,Reptiles,22606,pdf_table1
+2022,Other rodents,15205,pdf_table1
+2022,Guinea pigs,14131,pdf_table1
+2022,Dogs,10417,pdf_table1
+2022,Nonhuman primates,7848,pdf_table1
+2022,Cats,4488,pdf_table1
+2022,Rabbits,4398,pdf_table1
+2023,Mice,1150348,pdf_table1
+2023,Fish,1007102,pdf_table1
+2023,Cattle,547970,pdf_table1
+2023,Rats,114834,pdf_table1
+2023,Birds,112333,pdf_table1
+2023,Amphibians,54037,pdf_table1
+2023,Other animals,39190,pdf_table1
+2023,Pigs,20291,pdf_table1
+2023,Other rodents,19975,pdf_table1
+2023,Reptiles,19913,pdf_table1
+2023,Dogs,16151,pdf_table1
+2023,Nonhuman primates,12138,pdf_table1
+2023,Guinea pigs,7618,pdf_table1
+2023,Cats,4138,pdf_table1
+2023,Rabbits,2905,pdf_table1
+2024,Fish,1713418,pdf_table1
+2024,Mice,1202233,pdf_table1
+2024,Cattle,369769,pdf_table1
+2024,Rats,110134,pdf_table1
+2024,Birds,102932,pdf_table1
+2024,Amphibians,76117,pdf_table1
+2024,Other animals,33703,pdf_table1
+2024,Reptiles,27891,pdf_table1
+2024,Pigs,23770,pdf_table1
+2024,Other rodents,12754,pdf_table1
+2024,Dogs,9252,pdf_table1
+2024,Guinea pigs,8205,pdf_table1
+2024,Nonhuman primates,7826,pdf_table1
+2024,Cats,4911,pdf_table1
+2024,Rabbits,3992,pdf_table1
+2025,Fish,1838204,pdf_table1
+2025,Mice,1180447,pdf_table1
+2025,Cattle,403289,pdf_table1
+2025,Birds,173891,pdf_table1
+2025,Rats,94884,pdf_table1
+2025,Amphibians,92221,pdf_table1
+2025,Pigs,42035,pdf_table1
+2025,Other animals,41477,pdf_table1
+2025,Cats,16143,pdf_table1
+2025,Other rodents,12343,pdf_table1
+2025,Reptiles,10669,pdf_table1
+2025,Dogs,9944,pdf_table1
+2025,Nonhuman primates,8889,pdf_table1
+2025,Guinea pigs,8279,pdf_table1
+2025,Rabbits,2379,pdf_table1

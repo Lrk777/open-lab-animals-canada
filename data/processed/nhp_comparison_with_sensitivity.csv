@@ -1,0 +1,43 @@
+jurisdiction,year,nhp,measure,population_m,per_million
+canada,2011,4355.0,animals used (CCAC),41.5,104.9
+canada,2012,4387.0,animals used (CCAC),41.5,105.7
+canada,2013,4069.0,animals used (CCAC),41.5,98.0
+canada,2014,5061.0,animals used (CCAC),41.5,122.0
+canada,2015,4942.0,animals used (CCAC),41.5,119.1
+canada,2016,7556.0,animals used (CCAC),41.5,182.1
+canada,2017,6412.0,animals used (CCAC),41.5,154.5
+canada,2018,8522.0,animals used (CCAC),41.5,205.3
+canada,2019,4805.0,animals used (CCAC),41.5,115.8
+canada,2020,5932.0,animals used (CCAC),41.5,142.9
+canada,2021,6818.0,animals used (CCAC),41.5,164.3
+canada,2022,7848.0,animals used (CCAC),41.5,189.1
+canada,2023,12138.0,animals used (CCAC),41.5,292.5
+canada,2024,7826.0,animals used (CCAC),41.5,188.6
+canada,2025,8889.0,animals used (CCAC),41.5,214.2
+uk,2014,2466.0,animals used for the first time,67.6,36.5
+uk,2015,2234.0,animals used for the first time,67.6,33.0
+uk,2016,2440.0,animals used for the first time,67.6,36.1
+uk,2017,2215.0,animals used for the first time,67.6,32.8
+uk,2018,2472.0,animals used for the first time,67.6,36.6
+uk,2019,2156.0,animals used for the first time,67.6,31.9
+uk,2020,1718.0,animals used for the first time,67.6,25.4
+uk,2021,2204.0,animals used for the first time,67.6,32.6
+uk,2022,1820.0,animals used for the first time,67.6,26.9
+uk,2023,1815.0,animals used for the first time,67.6,26.8
+uk,2024,1478.0,animals used for the first time,67.6,21.9
+uk,2025,1845.0,animals used for the first time,67.6,27.3
+us,2021,72246.0,"animals used, columns C-E (excludes held-not-used)",340.1,212.4
+us,2022,71282.0,"animals used, columns C-E (excludes held-not-used)",340.1,209.6
+us,2023,65823.0,"animals used, columns C-E (excludes held-not-used)",340.1,193.5
+us,2024,60433.0,"animals used, columns C-E (excludes held-not-used)",340.1,177.7
+us,2025,60920.0,"animals used, columns C-E (excludes held-not-used)",340.1,179.1
+eu,2018,6111.0,animals used for the first time,455.5,13.4
+eu,2022,5784.0,animals used for the first time,455.5,12.7
+eu,2023,4392.0,animals used for the first time,455.5,9.6
+canada_lab_ci_c_e,2019,4068.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,98.0
+canada_lab_ci_c_e,2020,5144.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,124.0
+canada_lab_ci_c_e,2021,4858.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,117.1
+canada_lab_ci_c_e,2022,6470.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,155.9
+canada_lab_ci_c_e,2023,7955.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,191.7
+canada_lab_ci_c_e,2024,6067.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,146.2
+canada_lab_ci_c_e,2025,7353.0,"CCAC lab genera, CI C-E only (sensitivity)",41.5,177.2

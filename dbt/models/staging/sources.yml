@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+  - name: raw
+    schema: raw
+    description: "Processed CSVs loaded by `python -m olac.db`."
+    tables:
+      - name: ccac_type_year
+      - name: ccac_reported_totals
+      - name: ccac_ci_year
+      - name: ccac_pau_year
+      - name: ccac_species_year
+      - name: ccac_species_ci_pau
+      - name: ccac_species_crosswalk
+      - name: nhp_comparison_with_sensitivity
+      - name: transparency_scores
+      - name: transparency_index
+      - name: dq_issues
+      - name: uk_primate_severity
+      - name: us_aphis_nhp

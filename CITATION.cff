@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this dataset or code, please cite it as below."
+title: "Open Lab Animals Canada"
+version: 0.1.0
+date-released: 2026-11-10
+authors:
+  - family-names: "[Surname]"
+    given-names: "[Given name]"
+    affiliation: "York University"
+license: MIT
+repository-code: "[repository URL]"
+keywords:
+  - animal research
+  - transparency
+  - open data
+  - meta-research

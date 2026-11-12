@@ -1,0 +1,64 @@
+# Every raw file the pipeline depends on. `olac-download` fetches these and records a
+# SHA-256 manifest so any change in an upstream file is detectable.
+
+ccac_excel:
+  # Sortable Excel files; File 1 = animals by species, File 2 = species x invasiveness x purpose.
+  url_template: "https://ccac.ca/Documents/AUD/{year}-sortable-excel-file{n}.xlsx"
+  years: [2019, 2020, 2021, 2022, 2023, 2024, 2025]
+  dest: "ccac/{year}-sortable-excel-file{n}.xlsx"
+
+ccac_pdf:
+  # Summary reports. CCAC hosts 2019+; 2011-2018 are mirrored by Speaking of Research.
+  dest: "ccac/pdf_{year}.pdf"
+  urls:
+    2011: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2011.pdf"
+    2012: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2012.pdf"
+    2013: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2013.pdf"
+    2014: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2014.pdf"
+    2015: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2015.pdf"
+    2016: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2016.pdf"
+    2017: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2017.pdf"
+    2018: "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2018.pdf"
+    2019: "https://ccac.ca/Documents/AUD/2019-Animal-Data-Report.pdf"
+    2020: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2020.pdf"
+    2021: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2021.pdf"
+    2022: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf"
+    2023: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2023.pdf"
+    2024: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2024.pdf"
+    2025: "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2025.pdf"
+
+ccac_pages:
+  dest: "scorecard/ccac_{name}.html"
+  urls:
+    participating_institutions: "https://ccac.ca/en/animals-used-in-science/transparency/participating-institutions.html"
+    certified_institutions: "https://ccac.ca/en/certification/certified-institutions.html"
+    institutional_transparency: "https://ccac.ca/en/animals-used-in-science/transparency/institutional-transparency.html"
+
+usda_aphis:
+  # National summaries. Per-facility reports exist on the APHIS Public Search Tool.
+  dest: "intl/usda_fy{year}.pdf"
+  urls:
+    2021: "https://www.aphis.usda.gov/sites/default/files/fy2021-research-animal-use-summary.pdf"
+    2022: "https://www.aphis.usda.gov/sites/default/files/fy2022-research-animal-use-summary.pdf"
+    2023: "https://www.aphis.usda.gov/sites/default/files/fy2023-research-animal-use-summary.pdf"
+    2024: "https://www.aphis.usda.gov/sites/default/files/fy2024-research-animal-use-summary.pdf"
+    2025: "https://direct.aphis.usda.gov/sites/default/files/fy2025-research-animal-use-summary.pdf"
+
+uk_home_office:
+  # Data tables include a 2014-2025 time series, so only the latest release is needed.
+  dest: "intl/uk_{year}_tables.ods"
+  urls:
+    2025: "https://assets.publishing.service.gov.uk/media/6a5e16bd4763c49e9be693a5/annual-statistics-scientific-procedures-living-animals-2025-tables.ods"
+
+funding:
+  # Large (~370 MB); downloaded but not committed. CIHR resource URLs come from the CKAN API
+  # for dataset 49edb1d7-5cb4-4fa7-897c-515d1aad5da3.
+  dest: "funding/{name}"
+  urls:
+    nserc_2020.csv: "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2020_Expenditures.csv"
+    nserc_2021.csv: "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2021_Expenditures.csv"
+    nserc_2022.csv: "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2022_Expenditures.csv"
+    nserc_2023.csv: "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2023_Expenditures.csv"
+    nserc_2024.csv: "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2024_Expenditures.csv"
+  cihr_ckan_dataset: "49edb1d7-5cb4-4fa7-897c-515d1aad5da3"
+  cihr_fiscal_years: ["201516", "201617", "201718", "201819", "201920", "202021", "202122", "202223", "202324", "202425", "202526"]

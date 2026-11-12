@@ -1,0 +1,49 @@
+jurisdiction,dimension,score,evidence,status,weight,question
+canada,legal_basis,1,"No federal statute; CCAC certification is voluntary but required for CIHR/NSERC funding (CCAC Animal Data Report 2018, introduction).",verified,1.5,Is public statistical reporting required by law for all users of animals?
+canada,species_coverage,3,"CCAC data cover all vertebrates and cephalopods used in research, teaching and testing (CCAC Excel files list fish, amphibians, reptiles, birds, mammals).",verified,1.0,Are all vertebrates (and cephalopods) covered?
+canada,institution_coverage,1,'The CCAC only collects animal use data from CCAC-certified institutions' (CCAC annual data reports page).,verified,1.5,"Are all institutions using animals covered, including private industry?"
+canada,public_granularity,1,National totals only; no provincial or institutional breakdown in CCAC releases.,verified,1.0,"Lowest level at which official statistics are published (national, regional, facility)."
+canada,severity_reporting,1,"Category of Invasiveness is assigned prospectively at protocol review, not actual severity (CCAC report text: 'assigning a CI to protocols prospectively').",verified,1.0,"Is actual (retrospective) severity reported, rather than prospective categories?"
+canada,purpose_detail,2,Five Purpose of Animal Use (PAU) categories; no breakdown of regulatory test types.,verified,1.0,"How detailed is the reported purpose of use, including regulatory test types?"
+canada,machine_readable,2,"Sortable Excel files published for each year; no API, no long-format time series.",verified,0.75,Are the statistics released as machine-readable open data?
+canada,historical_archive,1,ccac.ca hosts reports from 2019 onward; this project sourced 2011-2018 from a third-party mirror (Speaking of Research). See config/sources.yaml.,verified,0.75,Does the official publisher host a continuous historical archive?
+canada,primate_detail,1,"Species-level counts only; no origin, generation, or colony type; some primates recorded without species (DQ report).",verified,1.0,"Are origin, generation and source of nonhuman primates reported?"
+canada,counting_clarity,1,File 2 double-counts reused animals (File 2 note); annual counting of animals on multi-year protocols is not quantified.,verified,0.75,Are reuse and unique-animal counts reported separately and clearly?
+canada,openness_agreement,1,CCAC transparency initiative lists 15 participating institutions; CCAC states no formal Canadian transparency agreement exists.,verified,0.75,Is there a sector-wide public openness agreement for institutions?
+canada,inspection_reports,0,CCAC assessment reports are not published.,to_verify,1.0,Are facility inspection or assessment findings published?
+uk,legal_basis,3,Animals (Scientific Procedures) Act 1986; Home Office publishes accredited official statistics.,verified,1.5,Is public statistical reporting required by law for all users of animals?
+uk,species_coverage,3,All living vertebrates and cephalopods (ASPA).,verified,1.0,Are all vertebrates (and cephalopods) covered?
+uk,institution_coverage,3,"All licensed establishments, public and private.",verified,1.5,"Are all institutions using animals covered, including private industry?"
+uk,public_granularity,1,"Official statistics by nation (England, Scotland, Wales); establishment-level figures only via voluntary Concordat disclosures.",verified,1.0,"Lowest level at which official statistics are published (national, regional, facility)."
+uk,severity_reporting,3,"Actual severity (sub-threshold, mild, moderate, severe, non-recovery) by species and purpose, Table 3.1.",verified,1.0,"Is actual (retrospective) severity reported, rather than prospective categories?"
+uk,purpose_detail,3,"Basic/translational/regulatory purposes plus sub-purposes and regulatory test types, Tables 3.2 and 7.1-7.5.",verified,1.0,"How detailed is the reported purpose of use, including regulatory test types?"
+uk,machine_readable,3,ODS data tables with a 2014-2025 time series.,verified,0.75,Are the statistics released as machine-readable open data?
+uk,historical_archive,3,Table 12 covers 1986-2013; GOV.UK collection hosts all annual releases.,verified,0.75,Does the official publisher host a continuous historical archive?
+uk,primate_detail,3,"Place of birth and generation of primates, Tables 2.2 and 2.3.",verified,1.0,"Are origin, generation and source of nonhuman primates reported?"
+uk,counting_clarity,2,Procedures and first-use animals reported separately (Table 1.3).,verified,0.75,Are reuse and unique-animal counts reported separately and clearly?
+uk,openness_agreement,3,"Concordat on Openness on Animal Research (2014), 130+ signatories, Leaders in Openness scheme.",verified,0.75,Is there a sector-wide public openness agreement for institutions?
+uk,inspection_reports,1,Animals in Science Regulation Unit annual reports published in aggregate; no facility-level reports.,to_verify,1.0,Are facility inspection or assessment findings published?
+eu,legal_basis,3,Directive 2010/63/EU requires Member States to submit statistics annually.,verified,1.5,Is public statistical reporting required by law for all users of animals?
+eu,species_coverage,3,All live non-human vertebrates and cephalopods (Directive 2010/63/EU).,verified,1.0,Are all vertebrates (and cephalopods) covered?
+eu,institution_coverage,3,All authorised users in Member States.,verified,1.5,"Are all institutions using animals covered, including private industry?"
+eu,public_granularity,2,ALURES database queryable at Member State level.,verified,1.0,"Lowest level at which official statistics are published (national, regional, facility)."
+eu,severity_reporting,3,Actual severity reported; Commission report includes dedicated severity analysis.,verified,1.0,"Is actual (retrospective) severity reported, rather than prospective categories?"
+eu,purpose_detail,3,Detailed purposes and regulatory test types in ALURES Section 2.,verified,1.0,"How detailed is the reported purpose of use, including regulatory test types?"
+eu,machine_readable,3,ALURES open statistical database.,verified,0.75,Are the statistics released as machine-readable open data?
+eu,historical_archive,2,ALURES detailed data from 2021 (2019 corrected); earlier years in Commission reports.,verified,0.75,Does the official publisher host a continuous historical archive?
+eu,primate_detail,3,"Source, generation and colony type of primates (Commission report section II.1.2.2).",verified,1.0,"Are origin, generation and source of nonhuman primates reported?"
+eu,counting_clarity,3,First use and reuse reported separately (ALURES Sections 1 and 2).,verified,0.75,Are reuse and unique-animal counts reported separately and clearly?
+eu,openness_agreement,2,"National openness agreements exist in several Member States (e.g. Germany, Netherlands, Spain, Portugal, Belgium, France), not EU-wide.",to_verify,0.75,Is there a sector-wide public openness agreement for institutions?
+eu,inspection_reports,1,Five-yearly implementation reports summarise inspections; no facility-level reports.,to_verify,1.0,Are facility inspection or assessment findings published?
+us,legal_basis,2,"Animal Welfare Act requires annual reports (APHIS Form 7023), but only for covered species.",verified,1.5,Is public statistical reporting required by law for all users of animals?
+us,species_coverage,1,"Excludes purpose-bred rats, mice and birds (birds added 2024), and all cold-blooded animals.",verified,1.0,Are all vertebrates (and cephalopods) covered?
+us,institution_coverage,2,"All registered research facilities, federal and VA facilities for covered species.",verified,1.5,"Are all institutions using animals covered, including private industry?"
+us,public_granularity,3,Per-facility annual reports available on the APHIS Public Search Tool.,verified,1.0,"Lowest level at which official statistics are published (national, regional, facility)."
+us,severity_reporting,2,Pain columns C/D/E reported per facility; categories are coarse.,verified,1.0,"Is actual (retrospective) severity reported, rather than prospective categories?"
+us,purpose_detail,0,No purpose-of-use breakdown in APHIS summaries.,verified,1.0,"How detailed is the reported purpose of use, including regulatory test types?"
+us,machine_readable,1,PDF summaries and a web search tool; no bulk open-data download.,verified,0.75,Are the statistics released as machine-readable open data?
+us,historical_archive,2,Fiscal-year summaries hosted by APHIS (FY2021-FY2025 retrieved).,verified,0.75,Does the official publisher host a continuous historical archive?
+us,primate_detail,1,Primates reported as a single category with pain columns only.,verified,1.0,"Are origin, generation and source of nonhuman primates reported?"
+us,counting_clarity,1,"Column B (held, not used) separated, but no reuse accounting.",verified,0.75,Are reuse and unique-animal counts reported separately and clearly?
+us,openness_agreement,0,No national openness agreement.,to_verify,0.75,Is there a sector-wide public openness agreement for institutions?
+us,inspection_reports,3,Facility inspection reports published on the APHIS Public Search Tool.,verified,1.0,Are facility inspection or assessment findings published?

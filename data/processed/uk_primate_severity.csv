@@ -1,0 +1,181 @@
+year,species,severity,basic_research,regulatory,n_procedures
+2025,Marmoset and tamarin,mild,10,0,14
+2025,Marmoset and tamarin,moderate,40,0,52
+2025,Marmoset and tamarin,non-recovery,5,0,5
+2025,Marmoset and tamarin,severe,0,0,0
+2025,Marmoset and tamarin,sub-threshold,0,0,0
+2025,Rhesus monkey (Macaca mulatta),mild,0,13,17
+2025,Rhesus monkey (Macaca mulatta),moderate,11,3,22
+2025,Rhesus monkey (Macaca mulatta),non-recovery,0,7,9
+2025,Rhesus monkey (Macaca mulatta),severe,2,0,2
+2025,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2025,Cynomolgus monkey (Macaca fascicularis),mild,0,1385,1523
+2025,Cynomolgus monkey (Macaca fascicularis),moderate,0,550,581
+2025,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,10
+2025,Cynomolgus monkey (Macaca fascicularis),severe,0,1,1
+2025,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2024,Marmoset and tamarin,mild,14,0,17
+2024,Marmoset and tamarin,moderate,21,0,63
+2024,Marmoset and tamarin,non-recovery,3,0,10
+2024,Marmoset and tamarin,severe,0,0,0
+2024,Marmoset and tamarin,sub-threshold,0,0,0
+2024,Rhesus monkey (Macaca mulatta),mild,0,20,40
+2024,Rhesus monkey (Macaca mulatta),moderate,15,0,27
+2024,Rhesus monkey (Macaca mulatta),non-recovery,0,0,8
+2024,Rhesus monkey (Macaca mulatta),severe,1,0,1
+2024,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2024,Cynomolgus monkey (Macaca fascicularis),mild,0,1039,1123
+2024,Cynomolgus monkey (Macaca fascicularis),moderate,0,626,636
+2024,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,8
+2024,Cynomolgus monkey (Macaca fascicularis),severe,0,3,3
+2024,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2023,Marmoset and tamarin,mild,17,0,17
+2023,Marmoset and tamarin,moderate,36,0,42
+2023,Marmoset and tamarin,non-recovery,1,0,5
+2023,Marmoset and tamarin,severe,0,0,0
+2023,Marmoset and tamarin,sub-threshold,0,0,0
+2023,Rhesus monkey (Macaca mulatta),mild,1,26,36
+2023,Rhesus monkey (Macaca mulatta),moderate,16,0,26
+2023,Rhesus monkey (Macaca mulatta),non-recovery,0,9,11
+2023,Rhesus monkey (Macaca mulatta),severe,0,0,0
+2023,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2023,Cynomolgus monkey (Macaca fascicularis),mild,1,1254,1402
+2023,Cynomolgus monkey (Macaca fascicularis),moderate,0,627,627
+2023,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,1
+2023,Cynomolgus monkey (Macaca fascicularis),severe,0,2,2
+2023,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2022,Marmoset and tamarin,mild,37,0,37
+2022,Marmoset and tamarin,moderate,27,0,27
+2022,Marmoset and tamarin,non-recovery,2,0,8
+2022,Marmoset and tamarin,severe,0,0,0
+2022,Marmoset and tamarin,sub-threshold,0,0,0
+2022,Rhesus monkey (Macaca mulatta),mild,0,41,65
+2022,Rhesus monkey (Macaca mulatta),moderate,14,0,17
+2022,Rhesus monkey (Macaca mulatta),non-recovery,0,12,15
+2022,Rhesus monkey (Macaca mulatta),severe,4,0,4
+2022,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2022,Cynomolgus monkey (Macaca fascicularis),mild,3,1417,1559
+2022,Cynomolgus monkey (Macaca fascicularis),moderate,31,424,455
+2022,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,6
+2022,Cynomolgus monkey (Macaca fascicularis),severe,1,2,4
+2022,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2021,Marmoset and tamarin,mild,9,0,28
+2021,Marmoset and tamarin,moderate,25,0,74
+2021,Marmoset and tamarin,non-recovery,0,0,13
+2021,Marmoset and tamarin,severe,1,0,1
+2021,Marmoset and tamarin,sub-threshold,0,0,0
+2021,Rhesus monkey (Macaca mulatta),mild,52,0,84
+2021,Rhesus monkey (Macaca mulatta),moderate,15,0,24
+2021,Rhesus monkey (Macaca mulatta),non-recovery,6,0,6
+2021,Rhesus monkey (Macaca mulatta),severe,4,0,4
+2021,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2021,Cynomolgus monkey (Macaca fascicularis),mild,0,1503,1735
+2021,Cynomolgus monkey (Macaca fascicularis),moderate,4,793,808
+2021,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,12
+2021,Cynomolgus monkey (Macaca fascicularis),severe,0,6,6
+2021,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2020,Marmoset and tamarin,mild,11,0,27
+2020,Marmoset and tamarin,moderate,38,0,68
+2020,Marmoset and tamarin,non-recovery,0,0,9
+2020,Marmoset and tamarin,severe,0,0,0
+2020,Marmoset and tamarin,sub-threshold,0,0,0
+2020,Rhesus monkey (Macaca mulatta),mild,51,0,178
+2020,Rhesus monkey (Macaca mulatta),moderate,26,0,31
+2020,Rhesus monkey (Macaca mulatta),non-recovery,4,0,6
+2020,Rhesus monkey (Macaca mulatta),severe,4,0,5
+2020,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2020,Cynomolgus monkey (Macaca fascicularis),mild,6,1381,1610
+2020,Cynomolgus monkey (Macaca fascicularis),moderate,23,422,445
+2020,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,2
+2020,Cynomolgus monkey (Macaca fascicularis),severe,0,11,11
+2020,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,1,1
+2019,Marmoset and tamarin,mild,19,0,44
+2019,Marmoset and tamarin,moderate,23,0,54
+2019,Marmoset and tamarin,non-recovery,0,0,0
+2019,Marmoset and tamarin,severe,1,0,6
+2019,Marmoset and tamarin,sub-threshold,0,0,6
+2019,Rhesus monkey (Macaca mulatta),mild,50,0,86
+2019,Rhesus monkey (Macaca mulatta),moderate,16,0,25
+2019,Rhesus monkey (Macaca mulatta),non-recovery,5,0,10
+2019,Rhesus monkey (Macaca mulatta),severe,3,0,3
+2019,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2019,Cynomolgus monkey (Macaca fascicularis),mild,0,1697,1855
+2019,Cynomolgus monkey (Macaca fascicularis),moderate,25,725,750
+2019,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,7
+2019,Cynomolgus monkey (Macaca fascicularis),severe,0,4,4
+2019,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2018,Marmoset and tamarin,mild,22,0,37
+2018,Marmoset and tamarin,moderate,33,0,76
+2018,Marmoset and tamarin,non-recovery,0,0,0
+2018,Marmoset and tamarin,severe,0,0,0
+2018,Marmoset and tamarin,sub-threshold,0,0,0
+2018,Rhesus monkey (Macaca mulatta),mild,53,0,108
+2018,Rhesus monkey (Macaca mulatta),moderate,27,0,41
+2018,Rhesus monkey (Macaca mulatta),non-recovery,10,0,10
+2018,Rhesus monkey (Macaca mulatta),severe,1,0,1
+2018,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2018,Cynomolgus monkey (Macaca fascicularis),mild,24,1719,2005
+2018,Cynomolgus monkey (Macaca fascicularis),moderate,0,892,915
+2018,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,0,0
+2018,Cynomolgus monkey (Macaca fascicularis),severe,0,1,14
+2018,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2017,Marmoset and tamarin,mild,12,0,75
+2017,Marmoset and tamarin,moderate,32,0,83
+2017,Marmoset and tamarin,non-recovery,0,0,0
+2017,Marmoset and tamarin,severe,0,0,8
+2017,Marmoset and tamarin,sub-threshold,0,0,0
+2017,Rhesus monkey (Macaca mulatta),mild,49,3,98
+2017,Rhesus monkey (Macaca mulatta),moderate,21,0,25
+2017,Rhesus monkey (Macaca mulatta),non-recovery,8,0,8
+2017,Rhesus monkey (Macaca mulatta),severe,0,0,1
+2017,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2017,Cynomolgus monkey (Macaca fascicularis),mild,4,1476,1709
+2017,Cynomolgus monkey (Macaca fascicularis),moderate,14,929,943
+2017,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,4,6
+2017,Cynomolgus monkey (Macaca fascicularis),severe,0,4,4
+2017,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2016,Marmoset and tamarin,mild,22,0,59
+2016,Marmoset and tamarin,moderate,101,0,121
+2016,Marmoset and tamarin,non-recovery,0,0,0
+2016,Marmoset and tamarin,severe,2,0,11
+2016,Marmoset and tamarin,sub-threshold,0,0,6
+2016,Rhesus monkey (Macaca mulatta),mild,66,12,84
+2016,Rhesus monkey (Macaca mulatta),moderate,22,0,41
+2016,Rhesus monkey (Macaca mulatta),non-recovery,7,0,7
+2016,Rhesus monkey (Macaca mulatta),severe,0,0,0
+2016,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2016,Cynomolgus monkey (Macaca fascicularis),mild,13,1592,1940
+2016,Cynomolgus monkey (Macaca fascicularis),moderate,0,1249,1272
+2016,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,16,19
+2016,Cynomolgus monkey (Macaca fascicularis),severe,0,9,9
+2016,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2015,Marmoset and tamarin,mild,13,0,14
+2015,Marmoset and tamarin,moderate,71,0,94
+2015,Marmoset and tamarin,non-recovery,0,0,0
+2015,Marmoset and tamarin,severe,18,0,23
+2015,Marmoset and tamarin,sub-threshold,0,0,0
+2015,Rhesus monkey (Macaca mulatta),mild,68,3,95
+2015,Rhesus monkey (Macaca mulatta),moderate,22,0,34
+2015,Rhesus monkey (Macaca mulatta),non-recovery,18,0,19
+2015,Rhesus monkey (Macaca mulatta),severe,0,0,0
+2015,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2015,Cynomolgus monkey (Macaca fascicularis),mild,14,2351,2515
+2015,Cynomolgus monkey (Macaca fascicularis),moderate,0,776,803
+2015,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,10,10
+2015,Cynomolgus monkey (Macaca fascicularis),severe,0,3,5
+2015,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0
+2014,Marmoset and tamarin,mild,40,0,40
+2014,Marmoset and tamarin,moderate,87,0,87
+2014,Marmoset and tamarin,non-recovery,0,0,0
+2014,Marmoset and tamarin,severe,1,0,1
+2014,Marmoset and tamarin,sub-threshold,0,0,0
+2014,Rhesus monkey (Macaca mulatta),mild,60,19,106
+2014,Rhesus monkey (Macaca mulatta),moderate,37,0,44
+2014,Rhesus monkey (Macaca mulatta),non-recovery,10,0,10
+2014,Rhesus monkey (Macaca mulatta),severe,4,0,4
+2014,Rhesus monkey (Macaca mulatta),sub-threshold,0,0,0
+2014,Cynomolgus monkey (Macaca fascicularis),mild,30,2174,2366
+2014,Cynomolgus monkey (Macaca fascicularis),moderate,0,548,568
+2014,Cynomolgus monkey (Macaca fascicularis),non-recovery,0,9,9
+2014,Cynomolgus monkey (Macaca fascicularis),severe,0,1,11
+2014,Cynomolgus monkey (Macaca fascicularis),sub-threshold,0,0,0

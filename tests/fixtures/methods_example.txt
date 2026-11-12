@@ -1,0 +1,7 @@
+Animals. Two adult male rhesus monkeys (Macaca mulatta; 8.5 and 10.2 kg) were used in this study. Monkeys were obtained from a national primate research center and were pair housed with environmental enrichment including foraging devices and toys. All procedures were approved by the University Animal Care Committee and complied with the guidelines of the Canadian Council on Animal Care.
+
+Surgery. Under isoflurane anesthesia and aseptic conditions, each monkey was implanted with a titanium head post and a recording chamber over the lateral intraparietal area in a single surgery. Buprenorphine and meloxicam were given for post-operative analgesia, and animals were monitored daily by veterinary staff.
+
+Fluid control. Monkeys were on a fluid control protocol; they received a minimum of 20 mL/kg per day and body weight was monitored daily. Juice reward was delivered during task performance.
+
+Analysis. Trials were randomly interleaved. Sessions with fewer than 100 completed trials were excluded. Statistical significance was assessed with Wilcoxon signed-rank tests.

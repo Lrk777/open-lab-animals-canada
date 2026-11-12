@@ -1,0 +1,65 @@
+version: 2
+
+models:
+  - name: stg_ccac__type_year
+    description: "National animal counts by animal type and year from CCAC PDF Table 1."
+    columns:
+      - name: year
+        data_tests: [not_null]
+      - name: animal_type
+        data_tests: [not_null]
+      - name: n_animals
+        data_tests:
+          - not_null
+          - dbt_utils_like_non_negative
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [year, animal_type]
+
+  - name: stg_ccac__species_ci_pau
+    description: "Species x category of invasiveness x purpose of animal use (Excel File 2). Counts are uses: reused animals can appear more than once."
+    columns:
+      - name: ci
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["A", "B", "C", "D", "E"]
+      - name: pau
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1, 2, 3, 4, 5]
+                quote: false
+      - name: n_uses
+        data_tests: [dbt_utils_like_non_negative]
+      - name: canonical_label
+        data_tests: [not_null]
+
+  - name: stg_ccac__species_year
+    description: "Animals by species and year (Excel File 1) with a canonical label for cross-year joins."
+    columns:
+      - name: canonical_label
+        data_tests: [not_null]
+      - name: n_animals
+        data_tests: [dbt_utils_like_non_negative]
+
+  - name: stg_transparency__scores
+    columns:
+      - name: score
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: [0, 1, 2, 3]
+                quote: false
+      - name: status
+        data_tests:
+          - accepted_values:
+              arguments:
+                values: ["verified", "to_verify"]
+      - name: evidence
+        data_tests: [not_null]
+    data_tests:
+      - unique_combination:
+          arguments:
+            columns: [jurisdiction, dimension]

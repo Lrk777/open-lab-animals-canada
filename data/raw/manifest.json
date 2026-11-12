@@ -1,0 +1,380 @@
+{
+  "ccac/2019-sortable-excel-file1.xlsx": {
+    "bytes": 88627,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "ab1224bfd4548240f3c9a7ae1c205de92393da61c07f1679eb3837524dbbb453",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2019-sortable-excel-file1.xlsx"
+  },
+  "ccac/2019-sortable-excel-file2.xlsx": {
+    "bytes": 138989,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "99f5e53cc3d281da7b0f6208473464a472f090498bef15b4b3addf63ce09c22a",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2019-sortable-excel-file2.xlsx"
+  },
+  "ccac/2020-sortable-excel-file1.xlsx": {
+    "bytes": 77108,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "4a7e363b13e3e3fecdded35e27660b639afa1b88aa728d2f76ed7fbeac1034e6",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2020-sortable-excel-file1.xlsx"
+  },
+  "ccac/2020-sortable-excel-file2.xlsx": {
+    "bytes": 117528,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "d59e68a1c8778c96f6417345cc4ae2457ebc4ea956747814bce73503997f9548",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2020-sortable-excel-file2.xlsx"
+  },
+  "ccac/2021-sortable-excel-file1.xlsx": {
+    "bytes": 80733,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "da4be6a73279abba2a45cf7223e683b45c50e1d799786a48a44c8a2b7db8febc",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2021-sortable-excel-file1.xlsx"
+  },
+  "ccac/2021-sortable-excel-file2.xlsx": {
+    "bytes": 125105,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "4404ed3e37a0fd2e163142b44526a3e09a88eb18ef98a68d3d06498036473281",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2021-sortable-excel-file2.xlsx"
+  },
+  "ccac/2022-sortable-excel-file1.xlsx": {
+    "bytes": 88719,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "3ed5d2dc32b4aa60d98ac19eac0bbc0ebe42aad38d59481226c05bb8390417c5",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2022-sortable-excel-file1.xlsx"
+  },
+  "ccac/2022-sortable-excel-file2.xlsx": {
+    "bytes": 137043,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "7f127a3957a2d3ec53586aa0357d5782f137732638d281f6c2b2a449da3ae37c",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2022-sortable-excel-file2.xlsx"
+  },
+  "ccac/2023-sortable-excel-file1.xlsx": {
+    "bytes": 90598,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "6bda9cfa61e6f12b02893b06f7c38e376baafde4e3ac51abdff1e887de4b6fd8",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2023-sortable-excel-file1.xlsx"
+  },
+  "ccac/2023-sortable-excel-file2.xlsx": {
+    "bytes": 141317,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "323351a0b572df15426301ff5cb9c462b0d3c61f376a56d08ee94adf29e709e9",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2023-sortable-excel-file2.xlsx"
+  },
+  "ccac/2024-sortable-excel-file1.xlsx": {
+    "bytes": 92719,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "1bfbec8b91cdd5f287e0d0ab9e53684801dffa135cdc310bb30ee1302090b898",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2024-sortable-excel-file1.xlsx"
+  },
+  "ccac/2024-sortable-excel-file2.xlsx": {
+    "bytes": 142783,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "4b015574f1c7de1aa6c4151bf8ad20cf1ae0a3c19efe3f429bdceecea888eee5",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2024-sortable-excel-file2.xlsx"
+  },
+  "ccac/2025-sortable-excel-file1.xlsx": {
+    "bytes": 86970,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "3ddee75b787a25a5a970f9186e940a492d419af92324e46be2a11196957e1f44",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2025-sortable-excel-file1.xlsx"
+  },
+  "ccac/2025-sortable-excel-file2.xlsx": {
+    "bytes": 136616,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "de2b47f9e62c4690138e101a6dc8177bc7a50b9bcc66ed749125e37a98d4db79",
+    "source": "ccac_excel",
+    "url": "https://ccac.ca/Documents/AUD/2025-sortable-excel-file2.xlsx"
+  },
+  "ccac/pdf_2011.pdf": {
+    "bytes": 964024,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "cea0efd3e115e6e11c1c0d04242ff8951ff7b1144c19d8ebc74822f233906f7d",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2011.pdf"
+  },
+  "ccac/pdf_2012.pdf": {
+    "bytes": 829025,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "bbdcd137a0a2d0114dd2dc4680f985045cba4e4cb83d33ab54c97628f0c66ffc",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2012.pdf"
+  },
+  "ccac/pdf_2013.pdf": {
+    "bytes": 871671,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "3d49dd6560981b204a5372be42fbe84de11f9c9e3b8500f15667ca6888aa858e",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2013.pdf"
+  },
+  "ccac/pdf_2014.pdf": {
+    "bytes": 907111,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "93f1d967ea8f50cfd5b076da3db09354a27c925b1f38b032b03cc56ebc456c44",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2014.pdf"
+  },
+  "ccac/pdf_2015.pdf": {
+    "bytes": 928064,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "b13099aaca382767052d4c6fa67a6860159cc16a5740ab11edb772738abf57c8",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2015.pdf"
+  },
+  "ccac/pdf_2016.pdf": {
+    "bytes": 965431,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "0ac37d68b21105e6e04fa3e21dd85ef329c35a59773ee5bc0e2dd42a2e745e26",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2016.pdf"
+  },
+  "ccac/pdf_2017.pdf": {
+    "bytes": 946677,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "699ba527157cc35851deee03e3822d24a050918307b9d074da260ac2995c39d7",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2017.pdf"
+  },
+  "ccac/pdf_2018.pdf": {
+    "bytes": 1328759,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "9e7b94bebec5de9a34b62367b90af0125a1c71f6f997a88b5ad72133dff49ce8",
+    "source": "ccac_pdf",
+    "url": "https://speakingofresearch.com/wp-content/uploads/2021/08/canada-2018.pdf"
+  },
+  "ccac/pdf_2019.pdf": {
+    "bytes": 711471,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "41fb19f03233e8c6eeee00b25b1a25b4c78d337c87bc303a231fc72abd300f86",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/2019-Animal-Data-Report.pdf"
+  },
+  "ccac/pdf_2020.pdf": {
+    "bytes": 712942,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "70af38da72aee74b8fd3de9eb7859bdc796acf207914d884678fe4fbf0b4572b",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2020.pdf"
+  },
+  "ccac/pdf_2021.pdf": {
+    "bytes": 333859,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "08c752aa44f1de19732570cc68ae5159df8e5bb25747ba5d33157d0e8aae0701",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2021.pdf"
+  },
+  "ccac/pdf_2022.pdf": {
+    "bytes": 362479,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "32aa5fdcfcac0e8a874550bb925b37d00938f1903c4184a53cf1d528d5d838fb",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2022.pdf"
+  },
+  "ccac/pdf_2023.pdf": {
+    "bytes": 367460,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "7f1d15f8f022b9bd52a36a35b8f3b29d437f9efea9c58f5cbb82cab57e13734d",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2023.pdf"
+  },
+  "ccac/pdf_2024.pdf": {
+    "bytes": 386858,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "b782ec01549888f7a0a901cc24a0adf4e6b710bc7fb77caedfe75839a50b6314",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2024.pdf"
+  },
+  "ccac/pdf_2025.pdf": {
+    "bytes": 523521,
+    "retrieved_utc": "2026-11-10T18:25:57+00:00",
+    "sha256": "8a0a44f6f03c6b527aa96f77b737a0dd8dfb7de2d7ec3f82552fd4911f27d50d",
+    "source": "ccac_pdf",
+    "url": "https://ccac.ca/Documents/AUD/CCAC_Animal_Data_Report_2025.pdf"
+  },
+  "funding/cihr_201516.xlsx": {
+    "bytes": 10231149,
+    "retrieved_utc": "2026-11-10T20:09:12+00:00",
+    "sha256": "1c477970e5f12f61d3eaea871e81c6996b07e2a7ef0589b1edb16854b72548e4",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/2842059b-4ec4-4fc0-af29-20d9e3a64ce8/download/cihr_investments_investissements_irsc_201516.xlsx"
+  },
+  "funding/cihr_201617.xlsx": {
+    "bytes": 9803770,
+    "retrieved_utc": "2026-11-10T20:09:12+00:00",
+    "sha256": "9d485439d66b3fb72ae9e2e04d9b5ab0fa3278f571f362850ce7e7580f07910a",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/c84aaa9b-046e-4ba3-a79e-7fc97e451d04/download/cihr_investments_investissements_irsc_201617.xlsx"
+  },
+  "funding/cihr_201718.xlsx": {
+    "bytes": 9567084,
+    "retrieved_utc": "2026-11-10T20:09:12+00:00",
+    "sha256": "151525ce0a93970085a8c0cc6319f7c3c9b442beef0d92e71abc16a46dcf2c6e",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/680131d3-9141-4a68-a3c4-990c1fd020b1/download/cihr_investments_investissements_irsc_201718.xlsx"
+  },
+  "funding/cihr_201819.xlsx": {
+    "bytes": 10110594,
+    "retrieved_utc": "2026-11-10T20:09:12+00:00",
+    "sha256": "df96a3e8700be05b026b946b0595c28b96bc678d280da2c0c322056a0225c0bb",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/1f858bcc-cfab-4936-8393-39e4f50a3422/download/cihr_investments_investissements_irsc_201819.xlsx"
+  },
+  "funding/cihr_201920.xlsx": {
+    "bytes": 11120194,
+    "retrieved_utc": "2026-11-10T20:09:12+00:00",
+    "sha256": "d1025a968d3bdbc1faf9ee78dc4e3677c837115d339453aaffa812a72df7e77e",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/9ee78927-fb7c-4240-86ed-1e1e35c55929/download/cihr_investments_investissements_irsc_201920.xlsx"
+  },
+  "funding/cihr_202021.xlsx": {
+    "bytes": 11624964,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "7a990ebe9c4a4f24341cdc318c39d4af725619e60899bcad8467b547daa65706",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/c0f671dd-f339-42ac-bfd9-0e804bbaf4bc/download/cihr_investments_investissements_irsc_202021.xlsx"
+  },
+  "funding/cihr_202122.xlsx": {
+    "bytes": 11256909,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "26ebf9638d5bb679fed9a2630b28e15a5e8ee4ef895127a58352e804ab62251e",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/5fd71a96-66e0-463a-a45d-ac768f5fa7c5/download/cihr_investments_investissements_irsc_202122.xlsx"
+  },
+  "funding/cihr_202223.xlsx": {
+    "bytes": 11467451,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "df23c313c0d8d22d3f1d61c737f914e807551ec01ab47ee803d9a7e506a9808c",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/66aff71a-a637-4810-ad0d-23b956323bc3/download/cihr_investments_investissements_irsc_202223.xlsx"
+  },
+  "funding/cihr_202324.xlsx": {
+    "bytes": 11951499,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "69c39b93cd544bafb8519fcec1e0c1e33cd7e582de9a8f1f0bcc3f8f0f234f3c",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/e712481d-2e86-4c3a-88ef-e047974665f0/download/cihr_investments_investissements_irsc_202324.xlsx"
+  },
+  "funding/cihr_202425.xlsx": {
+    "bytes": 12514949,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "809f6ee583d76b084fdb3e669d827ee62d471444f8438653c190f8d69c2b43df",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/b9d0adcd-a898-4e70-9dca-5b96db76ffe3/download/cihr_investments_investissements_irsc_202425.xlsx"
+  },
+  "funding/cihr_202526.xlsx": {
+    "bytes": 12049168,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "7844602b4c3ab129c0bbd03623aee163b1880890b33b5fa1068fd36dac52771f",
+    "source": "funding",
+    "url": "https://open.canada.ca/data/dataset/49edb1d7-5cb4-4fa7-897c-515d1aad5da3/resource/c7b21862-428e-4107-aa32-0b4a41d368cf/download/cihr_investments_investissements_irsc_202526.xlsx"
+  },
+  "funding/nserc_2020.csv": {
+    "bytes": 52234184,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "1d055dae7d94b5df2f8dc7adfc367ed2761aa0941049c3778fba8ec84238eff4",
+    "source": "funding",
+    "url": "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2020_Expenditures.csv"
+  },
+  "funding/nserc_2021.csv": {
+    "bytes": 40020291,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "36c41411bf3879630464a47a4415798ef3ab1b06d59fa69ea6cec949ac18ae5d",
+    "source": "funding",
+    "url": "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2021_Expenditures.csv"
+  },
+  "funding/nserc_2022.csv": {
+    "bytes": 51312583,
+    "retrieved_utc": "2026-11-10T20:09:08+00:00",
+    "sha256": "aa8297ec39083dc19913d7d3aeceb23d359b8ee9f4be34b4a3e7a1a9f27c7da4",
+    "source": "funding",
+    "url": "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2022_Expenditures.csv"
+  },
+  "funding/nserc_2023.csv": {
+    "bytes": 53862943,
+    "retrieved_utc": "2026-11-10T20:09:10+00:00",
+    "sha256": "280b0dc9e092efb3461d85823c0db2142f2f5dd74272e5eb608cd114ed6b6321",
+    "source": "funding",
+    "url": "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2023_Expenditures.csv"
+  },
+  "funding/nserc_2024.csv": {
+    "bytes": 56525716,
+    "retrieved_utc": "2026-11-10T20:09:11+00:00",
+    "sha256": "7632f25cd5b23686900d41eac1e960c9a64d00546fe6ae5fca80ee3f2d38b72c",
+    "source": "funding",
+    "url": "https://www.nserc-crsng.gc.ca/opendata/NSERC_FY2024_Expenditures.csv"
+  },
+  "intl/uk_2025_tables.ods": {
+    "bytes": 1870819,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "4db280208c28a9c43cd6827b7584b33ae98bcf0a93d06c8ecd6e4a876f1b3cf6",
+    "source": "uk_home_office",
+    "url": "https://assets.publishing.service.gov.uk/media/6a5e16bd4763c49e9be693a5/annual-statistics-scientific-procedures-living-animals-2025-tables.ods"
+  },
+  "intl/usda_fy2021.pdf": {
+    "bytes": 170885,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "fd1483afa71eb78417e0e11ef9d9c37f4d2092613f1ef5cbfca340a440543d39",
+    "source": "usda_aphis",
+    "url": "https://www.aphis.usda.gov/sites/default/files/fy2021-research-animal-use-summary.pdf"
+  },
+  "intl/usda_fy2022.pdf": {
+    "bytes": 183109,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "e054e01ac239144922b73197d313ccc63acdd288080080df3df002842359cb67",
+    "source": "usda_aphis",
+    "url": "https://www.aphis.usda.gov/sites/default/files/fy2022-research-animal-use-summary.pdf"
+  },
+  "intl/usda_fy2023.pdf": {
+    "bytes": 335328,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "19f6b411a730b033bee41fa2ec1da56f4f74c849a7e7f08a5e6dce023142b78e",
+    "source": "usda_aphis",
+    "url": "https://www.aphis.usda.gov/sites/default/files/fy2023-research-animal-use-summary.pdf"
+  },
+  "intl/usda_fy2024.pdf": {
+    "bytes": 352615,
+    "retrieved_utc": "2026-11-10T20:09:07+00:00",
+    "sha256": "ef3754a4474085620eb2638da6dbc81176bb77f1dfeb61b07873f300af445222",
+    "source": "usda_aphis",
+    "url": "https://www.aphis.usda.gov/sites/default/files/fy2024-research-animal-use-summary.pdf"
+  },
+  "intl/usda_fy2025.pdf": {
+    "bytes": 313870,
+    "retrieved_utc": "2026-11-10T18:25:58+00:00",
+    "sha256": "7010b248f340eff39252d1d728d23194350682d5eda9f29b8b0ebe2af5344ee9",
+    "source": "usda_aphis",
+    "url": "https://direct.aphis.usda.gov/sites/default/files/fy2025-research-animal-use-summary.pdf"
+  },
+  "scorecard/ccac_certified_institutions.html": {
+    "bytes": 59469,
+    "retrieved_utc": "2026-11-10T18:26:01+00:00",
+    "sha256": "9b31991bd006ff36370405953b55cdbf7a2a895ba2df6dbaf8607099e5e35164",
+    "source": "ccac_pages",
+    "url": "https://ccac.ca/en/certification/certified-institutions.html"
+  },
+  "scorecard/ccac_institutional_transparency.html": {
+    "bytes": 25357,
+    "retrieved_utc": "2026-11-10T18:26:04+00:00",
+    "sha256": "cdf5cc4734557223a7484d429a1aec929c6e9cd553f79a5e844c5d96b637827e",
+    "source": "ccac_pages",
+    "url": "https://ccac.ca/en/animals-used-in-science/transparency/institutional-transparency.html"
+  },
+  "scorecard/ccac_participating_institutions.html": {
+    "bytes": 25574,
+    "retrieved_utc": "2026-11-10T18:25:59+00:00",
+    "sha256": "abcdce22fb6b4f11e2c0a51b42b50970a595caaa4af258cff65276409094f808",
+    "source": "ccac_pages",
+    "url": "https://ccac.ca/en/animals-used-in-science/transparency/participating-institutions.html"
+  }
+}

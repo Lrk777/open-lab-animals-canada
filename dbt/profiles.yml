@@ -1,0 +1,8 @@
+olac:
+  target: dev
+  outputs:
+    dev:
+      type: duckdb
+      # Run dbt from the repo root (see Makefile) or set OLAC_WAREHOUSE to an absolute path.
+      path: "{{ env_var('OLAC_WAREHOUSE', 'data/olac.duckdb') }}"
+      threads: 4

@@ -1,0 +1,47 @@
+# Regular expressions (case-insensitive) applied to award title + keywords + abstract.
+# Keep patterns conservative: precision matters more than recall for a public claim.
+# Validate with `python -m olac.ingest.funding --sample` and record precision in docs/methods.md.
+
+categories:
+  nhp_research:
+    description: "Research that names nonhuman primates as study animals."
+    include:
+      - '\bmacaques?\b'
+      - '\brhesus\b'
+      - '\bmacaca\b'
+      - '\bnon-?human primates?\b'
+      - '\bnhps?\b'
+      - '\bmarmosets?\b'
+      - '\bcynomolgus\b'
+      - '\b(awake|behaving) monkeys?\b'
+      - '\bmonkeys?\b'
+    exclude:
+      # Field primatology and evolutionary anthropology are not laboratory primate research.
+      - '\bwild (primates?|monkeys?|populations?)\b'
+      - '\bfield (site|station|study)\b'
+      - '\bmonkeypox\b'
+      - '\bmpox\b'
+
+  non_animal_methods:
+    description: "Human-relevant non-animal approaches (new approach methodologies)."
+    include:
+      - '\borganoids?\b'
+      - '\borgans?[- ]on[- ](a[- ])?chips?\b'
+      - '\bmicrophysiological\b'
+      - '\bnew approach method(ologie)?s\b'
+      - '\balternatives? to animal\b'
+      - '\b(replace|replacement of) animal\b'
+      - '\binduced pluripotent\b'
+      - '\bipscs?\b'
+      - '\bin silico\b'
+      - '\b3d bioprint'
+      - '\bhuman (brain )?slices?\b'
+
+  computational_neuro:
+    description: "Computational / AI models of the brain, a partial replacement route for primate vision work."
+    include:
+      - '\b(artificial|deep|convolutional|recurrent) neural networks?\b[^.]{0,200}\b(brain|cortex|cortical|visual system|primate vision)\b'
+      - '\b(brain|cortex|cortical|visual system)\b[^.]{0,200}\b(artificial|deep|convolutional|recurrent) neural networks?\b'
+      - '\bcomputational neuroscience\b'
+      - '\bbrain-score\b'
+      - '\bmodels? of (the )?(primate |human )?(ventral stream|visual cortex|object recognition)\b'

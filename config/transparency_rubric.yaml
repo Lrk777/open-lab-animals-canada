@@ -1,0 +1,246 @@
+# Transparency Index rubric. Each dimension is scored 0-3 per jurisdiction.
+# `evidence` must point to a public document; `status` is "verified" when the evidence was
+# checked against the primary source in this repo, "to_verify" otherwise. Unverified cells
+# are flagged in the index output so nobody quotes them as settled.
+
+scale:
+  0: absent
+  1: minimal / partial
+  2: substantial
+  3: comprehensive
+
+dimensions:
+  legal_basis:
+    question: "Is public statistical reporting required by law for all users of animals?"
+    weight: 1.5
+  species_coverage:
+    question: "Are all vertebrates (and cephalopods) covered?"
+    weight: 1.0
+  institution_coverage:
+    question: "Are all institutions using animals covered, including private industry?"
+    weight: 1.5
+  public_granularity:
+    question: "Lowest level at which official statistics are published (national, regional, facility)."
+    weight: 1.0
+  severity_reporting:
+    question: "Is actual (retrospective) severity reported, rather than prospective categories?"
+    weight: 1.0
+  purpose_detail:
+    question: "How detailed is the reported purpose of use, including regulatory test types?"
+    weight: 1.0
+  machine_readable:
+    question: "Are the statistics released as machine-readable open data?"
+    weight: 0.75
+  historical_archive:
+    question: "Does the official publisher host a continuous historical archive?"
+    weight: 0.75
+  primate_detail:
+    question: "Are origin, generation and source of nonhuman primates reported?"
+    weight: 1.0
+  counting_clarity:
+    question: "Are reuse and unique-animal counts reported separately and clearly?"
+    weight: 0.75
+  openness_agreement:
+    question: "Is there a sector-wide public openness agreement for institutions?"
+    weight: 0.75
+  inspection_reports:
+    question: "Are facility inspection or assessment findings published?"
+    weight: 1.0
+
+jurisdictions:
+  canada:
+    legal_basis:
+      score: 1
+      evidence: "No federal statute; CCAC certification is voluntary but required for CIHR/NSERC funding (CCAC Animal Data Report 2018, introduction)."
+      status: verified
+    species_coverage:
+      score: 3
+      evidence: "CCAC data cover all vertebrates and cephalopods used in research, teaching and testing (CCAC Excel files list fish, amphibians, reptiles, birds, mammals)."
+      status: verified
+    institution_coverage:
+      score: 1
+      evidence: "'The CCAC only collects animal use data from CCAC-certified institutions' (CCAC annual data reports page)."
+      status: verified
+    public_granularity:
+      score: 1
+      evidence: "National totals only; no provincial or institutional breakdown in CCAC releases."
+      status: verified
+    severity_reporting:
+      score: 1
+      evidence: "Category of Invasiveness is assigned prospectively at protocol review, not actual severity (CCAC report text: 'assigning a CI to protocols prospectively')."
+      status: verified
+    purpose_detail:
+      score: 2
+      evidence: "Five Purpose of Animal Use (PAU) categories; no breakdown of regulatory test types."
+      status: verified
+    machine_readable:
+      score: 2
+      evidence: "Sortable Excel files published for each year; no API, no long-format time series."
+      status: verified
+    historical_archive:
+      score: 1
+      evidence: "ccac.ca hosts reports from 2019 onward; this project sourced 2011-2018 from a third-party mirror (Speaking of Research). See config/sources.yaml."
+      status: verified
+    primate_detail:
+      score: 1
+      evidence: "Species-level counts only; no origin, generation, or colony type; some primates recorded without species (DQ report)."
+      status: verified
+    counting_clarity:
+      score: 1
+      evidence: "File 2 double-counts reused animals (File 2 note); annual counting of animals on multi-year protocols is not quantified."
+      status: verified
+    openness_agreement:
+      score: 1
+      evidence: "CCAC transparency initiative lists 15 participating institutions; CCAC states no formal Canadian transparency agreement exists."
+      status: verified
+    inspection_reports:
+      score: 0
+      evidence: "CCAC assessment reports are not published."
+      status: to_verify
+  uk:
+    legal_basis:
+      score: 3
+      evidence: "Animals (Scientific Procedures) Act 1986; Home Office publishes accredited official statistics."
+      status: verified
+    species_coverage:
+      score: 3
+      evidence: "All living vertebrates and cephalopods (ASPA)."
+      status: verified
+    institution_coverage:
+      score: 3
+      evidence: "All licensed establishments, public and private."
+      status: verified
+    public_granularity:
+      score: 1
+      evidence: "Official statistics by nation (England, Scotland, Wales); establishment-level figures only via voluntary Concordat disclosures."
+      status: verified
+    severity_reporting:
+      score: 3
+      evidence: "Actual severity (sub-threshold, mild, moderate, severe, non-recovery) by species and purpose, Table 3.1."
+      status: verified
+    purpose_detail:
+      score: 3
+      evidence: "Basic/translational/regulatory purposes plus sub-purposes and regulatory test types, Tables 3.2 and 7.1-7.5."
+      status: verified
+    machine_readable:
+      score: 3
+      evidence: "ODS data tables with a 2014-2025 time series."
+      status: verified
+    historical_archive:
+      score: 3
+      evidence: "Table 12 covers 1986-2013; GOV.UK collection hosts all annual releases."
+      status: verified
+    primate_detail:
+      score: 3
+      evidence: "Place of birth and generation of primates, Tables 2.2 and 2.3."
+      status: verified
+    counting_clarity:
+      score: 2
+      evidence: "Procedures and first-use animals reported separately (Table 1.3)."
+      status: verified
+    openness_agreement:
+      score: 3
+      evidence: "Concordat on Openness on Animal Research (2014), 130+ signatories, Leaders in Openness scheme."
+      status: verified
+    inspection_reports:
+      score: 1
+      evidence: "Animals in Science Regulation Unit annual reports published in aggregate; no facility-level reports."
+      status: to_verify
+  eu:
+    legal_basis:
+      score: 3
+      evidence: "Directive 2010/63/EU requires Member States to submit statistics annually."
+      status: verified
+    species_coverage:
+      score: 3
+      evidence: "All live non-human vertebrates and cephalopods (Directive 2010/63/EU)."
+      status: verified
+    institution_coverage:
+      score: 3
+      evidence: "All authorised users in Member States."
+      status: verified
+    public_granularity:
+      score: 2
+      evidence: "ALURES database queryable at Member State level."
+      status: verified
+    severity_reporting:
+      score: 3
+      evidence: "Actual severity reported; Commission report includes dedicated severity analysis."
+      status: verified
+    purpose_detail:
+      score: 3
+      evidence: "Detailed purposes and regulatory test types in ALURES Section 2."
+      status: verified
+    machine_readable:
+      score: 3
+      evidence: "ALURES open statistical database."
+      status: verified
+    historical_archive:
+      score: 2
+      evidence: "ALURES detailed data from 2021 (2019 corrected); earlier years in Commission reports."
+      status: verified
+    primate_detail:
+      score: 3
+      evidence: "Source, generation and colony type of primates (Commission report section II.1.2.2)."
+      status: verified
+    counting_clarity:
+      score: 3
+      evidence: "First use and reuse reported separately (ALURES Sections 1 and 2)."
+      status: verified
+    openness_agreement:
+      score: 2
+      evidence: "National openness agreements exist in several Member States (e.g. Germany, Netherlands, Spain, Portugal, Belgium, France), not EU-wide."
+      status: to_verify
+    inspection_reports:
+      score: 1
+      evidence: "Five-yearly implementation reports summarise inspections; no facility-level reports."
+      status: to_verify
+  us:
+    legal_basis:
+      score: 2
+      evidence: "Animal Welfare Act requires annual reports (APHIS Form 7023), but only for covered species."
+      status: verified
+    species_coverage:
+      score: 1
+      evidence: "Excludes purpose-bred rats, mice and birds (birds added 2024), and all cold-blooded animals."
+      status: verified
+    institution_coverage:
+      score: 2
+      evidence: "All registered research facilities, federal and VA facilities for covered species."
+      status: verified
+    public_granularity:
+      score: 3
+      evidence: "Per-facility annual reports available on the APHIS Public Search Tool."
+      status: verified
+    severity_reporting:
+      score: 2
+      evidence: "Pain columns C/D/E reported per facility; categories are coarse."
+      status: verified
+    purpose_detail:
+      score: 0
+      evidence: "No purpose-of-use breakdown in APHIS summaries."
+      status: verified
+    machine_readable:
+      score: 1
+      evidence: "PDF summaries and a web search tool; no bulk open-data download."
+      status: verified
+    historical_archive:
+      score: 2
+      evidence: "Fiscal-year summaries hosted by APHIS (FY2021-FY2025 retrieved)."
+      status: verified
+    primate_detail:
+      score: 1
+      evidence: "Primates reported as a single category with pain columns only."
+      status: verified
+    counting_clarity:
+      score: 1
+      evidence: "Column B (held, not used) separated, but no reuse accounting."
+      status: verified
+    openness_agreement:
+      score: 0
+      evidence: "No national openness agreement."
+      status: to_verify
+    inspection_reports:
+      score: 3
+      evidence: "Facility inspection reports published on the APHIS Public Search Tool."
+      status: verified

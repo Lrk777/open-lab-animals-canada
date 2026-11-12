@@ -1,0 +1,165 @@
+funder,institution,category,n_awards,amount_cad
+CIHR,,computational_neuro,2,1097776.0
+CIHR,,nhp_research,25,17783167.83
+CIHR,,non_animal_methods,34,12581978.0
+CIHR,CIUSSS de Centre-Ouest-de-l'Ile-de-Montréal-Jewish General,non_animal_methods,1,478000.0
+CIHR,Carleton University (Ottawa),non_animal_methods,1,10000.0
+CIHR,"Concordia University (Montreal, Quebec)",computational_neuro,1,10000.0
+CIHR,Dalhousie University (Nova Scotia),nhp_research,1,546975.0
+CIHR,Dalhousie University (Nova Scotia),non_animal_methods,1,722160.0
+CIHR,Health Sciences North (Sudbury),nhp_research,1,57338.0
+CIHR,Hospital for Sick Children (Toronto),computational_neuro,1,2808469.0
+CIHR,Hospital for Sick Children (Toronto),non_animal_methods,14,8910962.0
+CIHR,McGill University,computational_neuro,3,897395.0
+CIHR,McGill University,nhp_research,5,3528653.0
+CIHR,McGill University,non_animal_methods,11,5743429.0
+CIHR,McMaster University,computational_neuro,1,25482.0
+CIHR,McMaster University,non_animal_methods,4,1273247.0
+CIHR,Memorial University of Newfoundland,non_animal_methods,1,719005.0
+CIHR,Montreal Heart Institute,non_animal_methods,1,792413.0
+CIHR,Nova Scotia Health Authority (Halifax),non_animal_methods,1,143828.0
+CIHR,"Ontario Institute for Cancer Research (Toronto, Ontario)",non_animal_methods,1,780300.0
+CIHR,Ottawa Heart Institute Research Corporation (Ontario),non_animal_methods,1,555263.0
+CIHR,Ottawa Hospital Research Institute,non_animal_methods,6,3067389.0
+CIHR,"Queen's University (Kingston, Ontario)",nhp_research,6,5294904.0
+CIHR,"Queen's University (Kingston, Ontario)",non_animal_methods,1,20000.0
+CIHR,Research Institute of the McGill University Health Centre,computational_neuro,1,406802.0
+CIHR,Research Institute of the McGill University Health Centre,non_animal_methods,12,7800997.0
+CIHR,"Simon Fraser University (Burnaby, B.C.)",non_animal_methods,7,3253923.0
+CIHR,Sinai Health System (Toronto),non_animal_methods,3,1893758.0
+CIHR,"Sunnybrook Research Institute (Toronto, Ontario)",computational_neuro,1,852350.0
+CIHR,"Sunnybrook Research Institute (Toronto, Ontario)",nhp_research,1,1124579.0
+CIHR,"Sunnybrook Research Institute (Toronto, Ontario)",non_animal_methods,6,2950718.0
+CIHR,"Trent University (Peterborough, Ontario)",non_animal_methods,1,683339.0
+CIHR,Unity Health Toronto,non_animal_methods,4,1227169.0
+CIHR,University Health Network (Toronto),computational_neuro,1,455813.0
+CIHR,University Health Network (Toronto),non_animal_methods,21,14551215.0
+CIHR,University of Alberta,nhp_research,1,558450.0
+CIHR,University of Alberta,non_animal_methods,13,4201423.0
+CIHR,University of British Columbia,nhp_research,1,192524.0
+CIHR,University of British Columbia,non_animal_methods,26,12696654.0
+CIHR,University of Calgary,nhp_research,1,846441.0
+CIHR,University of Calgary,non_animal_methods,11,5010315.0
+CIHR,University of Guelph,nhp_research,2,512304.0
+CIHR,University of Guelph,non_animal_methods,3,1155487.0
+CIHR,University of Lethbridge (Alberta),computational_neuro,1,1014152.0
+CIHR,University of Manitoba,nhp_research,2,244277.0
+CIHR,University of Ottawa,computational_neuro,2,2210850.0
+CIHR,University of Ottawa,nhp_research,1,552603.0
+CIHR,University of Ottawa,non_animal_methods,2,24000000.0
+CIHR,University of Saskatchewan,nhp_research,3,1703215.0
+CIHR,University of Saskatchewan,non_animal_methods,4,934560.0
+CIHR,University of Toronto,nhp_research,3,1465503.0
+CIHR,University of Toronto,non_animal_methods,10,4773926.0
+CIHR,University of Victoria (British Columbia),non_animal_methods,1,489600.0
+CIHR,University of Windsor (Ontario),non_animal_methods,3,2251391.0
+CIHR,Western University (Ontario),computational_neuro,3,1715890.0
+CIHR,Western University (Ontario),nhp_research,13,9392495.0
+CIHR,Western University (Ontario),non_animal_methods,7,1440665.0
+CIHR,"York University (Toronto, Ontario)",nhp_research,2,250241.0
+NSERC,Acadia University,non_animal_methods,1,168400.0
+NSERC,Algoma University,non_animal_methods,1,38000.0
+NSERC,Brock University,nhp_research,2,86000.0
+NSERC,Canadian Institutes of Health Research,non_animal_methods,1,50000.0
+NSERC,Carleton University,non_animal_methods,5,387000.0
+NSERC,Columbia University,non_animal_methods,1,22500.0
+NSERC,Concordia University,computational_neuro,1,50000.0
+NSERC,Concordia University,nhp_research,7,229833.33000000002
+NSERC,Concordia University,non_animal_methods,4,298000.0
+NSERC,Cégep John Abbott College,nhp_research,1,440000.0
+NSERC,Dalhousie University,non_animal_methods,3,348000.0
+NSERC,Duke University,nhp_research,1,63000.0
+NSERC,Emory University,nhp_research,1,38416.67
+NSERC,Georgia Institute of Technology,computational_neuro,1,40000.0
+NSERC,Institut national de la recherche scientifique,computational_neuro,1,1459990.0
+NSERC,Institut national de la recherche scientifique,non_animal_methods,2,280000.0
+NSERC,Johns Hopkins University,nhp_research,1,90000.0
+NSERC,Lakehead University,non_animal_methods,1,120000.0
+NSERC,Lambton College of Applied Arts and Technology,nhp_research,1,40000.0
+NSERC,Massachusetts General Hospital,non_animal_methods,1,22500.0
+NSERC,Massachusetts Institute of Technology,non_animal_methods,3,280833.33
+NSERC,McGill University,computational_neuro,10,6348661.0
+NSERC,McGill University,nhp_research,13,1041361.0
+NSERC,McGill University,non_animal_methods,46,4696018.67
+NSERC,McMaster University,computational_neuro,3,164000.0
+NSERC,McMaster University,nhp_research,3,50500.0
+NSERC,McMaster University,non_animal_methods,19,1645283.0
+NSERC,Memorial University of Newfoundland,non_animal_methods,3,220000.0
+NSERC,Mount Royal University,non_animal_methods,1,120000.0
+NSERC,Princeton University,computational_neuro,1,67750.0
+NSERC,Princeton University,nhp_research,1,90000.0
+NSERC,Queen's University,nhp_research,5,524005.0
+NSERC,Queen's University,non_animal_methods,4,567541.86
+NSERC,Simon Fraser University,computational_neuro,1,54000.0
+NSERC,Simon Fraser University,non_animal_methods,9,617500.0
+NSERC,Stanford University,non_animal_methods,3,123500.0
+NSERC,Technion - Israel Institute of Technology,non_animal_methods,1,63000.0
+NSERC,The University of British Columbia,nhp_research,4,381333.33
+NSERC,The University of British Columbia,non_animal_methods,19,1982207.38
+NSERC,The University of Western Ontario,computational_neuro,12,584833.34
+NSERC,The University of Western Ontario,nhp_research,11,771166.66
+NSERC,The University of Western Ontario,non_animal_methods,13,906776.34
+NSERC,The University of Winnipeg,non_animal_methods,3,94000.0
+NSERC,Toronto Metropolitan University,non_animal_methods,2,75585.0
+NSERC,University Health Network,non_animal_methods,2,67500.0
+NSERC,University of Alberta,computational_neuro,2,63500.0
+NSERC,University of Alberta,nhp_research,2,51000.0
+NSERC,University of Alberta,non_animal_methods,9,1276000.0
+NSERC,University of British Columbia,nhp_research,2,143000.0
+NSERC,University of British Columbia,non_animal_methods,15,1155000.0
+NSERC,University of Calgary,computational_neuro,9,904000.0
+NSERC,University of Calgary,nhp_research,7,351000.0
+NSERC,University of Calgary,non_animal_methods,25,1663333.0
+NSERC,University of California - Berkeley,non_animal_methods,1,69583.33
+NSERC,University of California - Los Angeles,computational_neuro,1,21000.0
+NSERC,University of Goettingen,computational_neuro,1,63000.0
+NSERC,University of Guelph,nhp_research,2,52500.0
+NSERC,University of Guelph,non_animal_methods,4,464800.0
+NSERC,University of Lethbridge,computational_neuro,5,727734.0
+NSERC,University of Lethbridge,nhp_research,10,1688832.0
+NSERC,University of Lethbridge,non_animal_methods,1,38333.33
+NSERC,University of Manitoba,computational_neuro,5,537000.0
+NSERC,University of Manitoba,non_animal_methods,6,565500.0
+NSERC,University of Michigan,non_animal_methods,1,65833.33
+NSERC,University of Ontario Institute of Technology,non_animal_methods,1,4500.0
+NSERC,University of Ottawa,computational_neuro,6,228194.0
+NSERC,University of Ottawa,nhp_research,3,145000.0
+NSERC,University of Ottawa,non_animal_methods,5,564500.0
+NSERC,University of Oxford,non_animal_methods,1,41000.0
+NSERC,University of Prince Edward Island,non_animal_methods,2,250000.0
+NSERC,University of Saskatchewan,nhp_research,2,204000.0
+NSERC,University of Saskatchewan,non_animal_methods,12,1164524.33
+NSERC,University of Toronto,computational_neuro,14,876000.0
+NSERC,University of Toronto,nhp_research,12,1066833.33
+NSERC,University of Toronto,non_animal_methods,48,6222593.99
+NSERC,University of Victoria,computational_neuro,1,138183.0
+NSERC,University of Victoria,non_animal_methods,10,750000.0
+NSERC,University of Washington,non_animal_methods,1,21000.0
+NSERC,University of Waterloo,computational_neuro,7,950000.0
+NSERC,University of Waterloo,nhp_research,1,39648.0
+NSERC,University of Waterloo,non_animal_methods,8,537500.0
+NSERC,University of Western Ontario,computational_neuro,6,326000.0
+NSERC,University of Western Ontario,nhp_research,5,445000.0
+NSERC,University of Western Ontario,non_animal_methods,18,1300500.0
+NSERC,University of Windsor,non_animal_methods,3,375000.0
+NSERC,University of Winnipeg,non_animal_methods,3,56500.0
+NSERC,Université Laval,computational_neuro,1,41000.0
+NSERC,Université Laval,nhp_research,3,66279.0
+NSERC,Université Laval,non_animal_methods,7,594500.0
+NSERC,Université d'Ottawa,computational_neuro,6,383000.0
+NSERC,Université d'Ottawa,nhp_research,1,110000.0
+NSERC,Université d'Ottawa,non_animal_methods,6,902227.0
+NSERC,Université de Moncton,computational_neuro,1,58000.0
+NSERC,Université de Montréal,computational_neuro,12,1248833.33
+NSERC,Université de Montréal,nhp_research,10,974000.0
+NSERC,Université de Montréal,non_animal_methods,25,1977220.1400000001
+NSERC,Université de Sherbrooke,computational_neuro,2,229000.0
+NSERC,Université de Sherbrooke,non_animal_methods,11,1103833.0
+NSERC,Université du Québec à Montréal,non_animal_methods,1,148000.0
+NSERC,Wilfrid Laurier University,nhp_research,1,66000.0
+NSERC,Wilfrid Laurier University,non_animal_methods,3,528000.0
+NSERC,York University,computational_neuro,4,725000.0
+NSERC,York University,nhp_research,11,563500.0
+NSERC,York University,non_animal_methods,4,581019.0
+NSERC,École Polytechnique de Montréal,non_animal_methods,3,411000.0
+NSERC,École de technologie supérieure,non_animal_methods,4,474465.0

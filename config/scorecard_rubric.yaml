@@ -1,0 +1,57 @@
+# University Openness Scorecard rubric, modelled on the UK Concordat on Openness on Animal
+# Research commitments and the CCAC "Institutional Transparency" guidance (which lists: a
+# written statement of commitment, animal use data, Three Rs strategies, profiles/outcomes,
+# and standard operating procedures).
+#
+# Each indicator is detected automatically on the institution's own pages, then must be
+# confirmed by a human reviewer (data/scorecard/review.csv) before publication.
+
+indicators:
+  public_page:
+    label: "Has a public web page about research involving animals"
+    points: 1
+    patterns: ['animal (care|research|use|ethics) (program|programme|services|committee|facility|facilities)', 'research (involving|with|using) animals', "animals in (research|science)", "utilisation des animaux", "protection des animaux"]
+  openness_statement:
+    label: "Publishes a statement committing to openness or transparency about animal research"
+    points: 2
+    patterns: ['(commit\w*|dedicated) to (openness|transparency)[^.]{0,120}animal', 'animal[^.]{0,120}(openness|transparency)', 'transparence[^.]{0,120}animaux']
+  annual_numbers:
+    label: "Publishes the number of animals used annually"
+    points: 2
+    patterns: ['(\d{1,3}(,\d{3})+|\d{4,})\s+(animals|mice|fish|rats)\b', 'number of animals used', 'animal use (data|numbers|statistics)', "nombre d'animaux"]
+  species_breakdown:
+    label: "Breaks annual numbers down by species"
+    points: 1
+    patterns: ['\b(mice|rats|fish|zebrafish|birds|pigs)\b[^.\n]{0,40}\b\d{2,}', '\d{2,}[^.\n]{0,20}\b(mice|rats|fish|zebrafish)\b']
+  severity_or_purpose:
+    label: "Reports invasiveness category or purpose of use"
+    points: 1
+    patterns: ['categor(y|ies) of invasiveness', 'purpose of animal use', '\bCI [A-E]\b', "catégorie de techniques invasives"]
+  primate_disclosure:
+    label: "States whether nonhuman primates are used"
+    points: 2
+    patterns: ['non-?human primates?', '\bmacaques?\b', 'primates non humains', '\bmonkeys?\b']
+  three_rs:
+    label: "Describes Three Rs (replacement, reduction, refinement) commitments"
+    points: 1
+    patterns: ['three rs', "3rs", '\breplace(ment)?\b[^.]{0,60}\breduc(e|tion)\b[^.]{0,60}\brefine(ment)?\b', 'remplacement[^.]{0,60}réduction']
+  oversight_described:
+    label: "Describes oversight (animal care committee, CCAC certification)"
+    points: 1
+    patterns: ['animal care committee', 'canadian council on animal care', '\bccac\b', 'comité de protection des animaux', '\bccpa\b']
+  public_contact:
+    label: "Provides a contact for public questions about animal research"
+    points: 1
+    patterns: ['(contact|email|e-mail)[^.]{0,80}animal (care|research|welfare)', '[\w.]+@[\w.]+\.ca']
+  ccac_transparency_participant:
+    label: "Listed as a CCAC transparency initiative participant"
+    points: 1
+    source: ccac_participating_institutions
+  ccac_regular_certificate:
+    label: "Holds a regular (not probationary) CCAC Certificate of GAP"
+    points: 1
+    source: ccac_certified_institutions
+  recent_update:
+    label: "Animal research information dated within the last 2 years"
+    points: 1
+    patterns: ['\b(20(2[4-6]))\b']

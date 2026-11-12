@@ -1,0 +1,22 @@
+# Population (millions) is used only for per-capita normalisation; values are rounded and
+# should be refreshed from the cited statistical agency when the series is extended.
+canada:
+  label: Canada
+  population_m: 41.5
+  population_source: "Statistics Canada, population estimates, 2025"
+  counting_unit: "animals used per year in protocols (an animal on a multi-year protocol is counted each year; reuse across protocols double-counts in File 2)"
+uk:
+  label: Great Britain
+  population_m: 67.6
+  population_source: "ONS mid-year population estimates (England, Wales, Scotland), 2024"
+  counting_unit: "animals used for the first time (Table 1.3); procedures elsewhere"
+eu:
+  label: EU27 + Norway
+  population_m: 455.5
+  population_source: "Eurostat population on 1 January 2024 (EU27) plus Statistics Norway"
+  counting_unit: "animals used for the first time; reuse reported separately"
+us:
+  label: United States
+  population_m: 340.1
+  population_source: "US Census Bureau Vintage 2024 estimate"
+  counting_unit: "animals used or held under the Animal Welfare Act per fiscal year (excludes purpose-bred mice, rats, birds pre-2024, fish)"

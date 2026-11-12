@@ -1,0 +1,18 @@
+version: 2
+
+models:
+  - name: fct_nhp_year
+    description: "Canadian nonhuman-primate use per year with macaque, invasiveness and purpose shares (shares available 2019+)."
+    columns:
+      - name: year
+        data_tests: [unique, not_null]
+      - name: nhp_animals
+        data_tests: [not_null]
+
+  - name: fct_transparency_index
+    description: "Weighted Transparency Index (0-100). Must agree with python -m olac.analysis.index."
+    columns:
+      - name: jurisdiction
+        data_tests: [unique, not_null]
+      - name: index_0_100
+        data_tests: [not_null]

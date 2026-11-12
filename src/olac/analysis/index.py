@@ -78,6 +78,8 @@ def run() -> pd.DataFrame:
         .sort_values("index_0_100", ascending=False)
     )
     summary["rank"] = range(1, len(summary) + 1)
+    # Rounded so committed outputs are byte-identical across platforms' floating-point libraries.
+    summary = summary.round(4)
     df.to_csv(PROCESSED / "transparency_scores.csv", index=False)
     summary.reset_index().to_csv(PROCESSED / "transparency_index.csv", index=False)
     print(summary.round(2).to_string())

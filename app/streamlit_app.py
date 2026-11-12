@@ -76,7 +76,7 @@ with tabs[0]:
   prospective (not actual) severity and no information on primate origin.
 - Most primates in Canadian science are cynomolgus macaques used in regulatory testing. Rhesus macaques, the
   species in the York University investigation, number a few hundred per year nationally.
-- Published Canadian primate neuroscience papers rarely report housing, fluid-control detail, or the number
+- Published Canadian primate research papers rarely report housing, fluid-control detail, or the number
   of surgeries per animal. See the *Reporting audit* tab.
 """
     )
@@ -180,7 +180,7 @@ with tabs[4]:
         rates = au.groupby(["group", "field"], as_index=False).reported.mean()
         st.plotly_chart(px.bar(rates.sort_values("reported"), x="reported", y="field", color="group", orientation="h",
                                height=650, labels={"reported": "share of papers reporting the item"},
-                               title=f"Reporting rates in {au.pmcid.nunique()} Canadian primate neuroscience papers "
+                               title=f"Reporting rates in {au.pmcid.nunique()} Canadian primate research papers "
                                      "(rules baseline)"), use_container_width=True)
         if ev_sum is not None:
             st.dataframe(ev_sum, use_container_width=True, hide_index=True)

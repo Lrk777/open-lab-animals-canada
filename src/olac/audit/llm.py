@@ -52,9 +52,10 @@ def _items() -> str:
 
 
 def extract(pmcid: str, text: str, model: str | None = None, client=None) -> PaperAudit:
-    from openai import OpenAI
+    if client is None:
+        from openai import OpenAI
 
-    client = client or OpenAI()
+        client = OpenAI()
     model = model or os.environ.get("OLAC_LLM_MODEL", "gpt-4o-mini")
     resp = client.chat.completions.create(
         model=model,

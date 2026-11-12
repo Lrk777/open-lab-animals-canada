@@ -22,9 +22,12 @@ dependencies = [
     "plotly>=5.22",
     "streamlit>=1.37",
     "tenacity>=8.3",
+    "pypdf>=4.0",
 ]
 
 [project.optional-dependencies]
+funding = ["pyarrow>=15"]
+figures = ["matplotlib>=3.8"]
 llm = ["openai>=1.40"]
 dbt = ["dbt-duckdb>=1.8"]
 dev = ["pytest>=8.2", "ruff>=0.5"]

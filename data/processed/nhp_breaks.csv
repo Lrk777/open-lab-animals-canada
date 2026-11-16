@@ -1,3 +1,3 @@
 break_year,mean_before,mean_after,ratio,method
 2022.0,5693.997769274281,9022.454888932902,1.5845553957923033,"PELT l2 on log counts, pen=0.5, min_size=3"
-,,,1.0591908653891406,log-linear trend 2012-2025: annual growth factor (p=0.001)
+,,,1.0591908653891404,log-linear trend 2012-2025: annual growth factor (p=0.001)

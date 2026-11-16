@@ -327,8 +327,8 @@ Birds,empidonax hammondii,"Flycatchers, Hammond's (Empidonax hammondii)",2019,20
 Birds,empidonax minimus,"Flycatchers, Least (Empidonax minimus)",2019,2025,"Flycatchers, Least (Empidonax minimus)"
 Birds,empidonax oberholseri,"Flycatchers, Dusky (Empidonax oberholseri)",2022,2022,"Flycatchers, Dusty American (Empidonax oberholseri)"
 Birds,empidonax oberholseri,"Flycatchers, Dusty American (Empidonax oberholseri)",2024,2024,"Flycatchers, Dusty American (Empidonax oberholseri)"
-Birds,empidonax traillii,"Flycatchers, Traill's (Empidonax traillii)",2019,2025,"Flycatchers, Traill's (Empidonax traillii)"
-Birds,empidonax traillii,"Flycatchers, Willow (Empidonax traillii)",2020,2025,"Flycatchers, Traill's (Empidonax traillii)"
+Birds,empidonax traillii,"Flycatchers, Traill's (Empidonax traillii)",2019,2025,"Flycatchers, Willow (Empidonax traillii)"
+Birds,empidonax traillii,"Flycatchers, Willow (Empidonax traillii)",2020,2025,"Flycatchers, Willow (Empidonax traillii)"
 Birds,eremophila alpestris,"Larks, Horned (Eremophila alpestris)",2019,2025,"Larks, Horned (Eremophila alpestris)"
 Birds,eucometis penicillata,"Tanagers, Grey-headed (Eucometis penicillata)",2024,2024,"Tanagers, Grey-headed (Eucometis penicillata)"
 Birds,eulampis holosericeus,"Hummingbirds, Green-throated Carib (Eulampis holosericeus)",2023,2023,"Hummingbirds, Green-throated Carib (Eulampis holosericeus)"
@@ -1292,8 +1292,8 @@ Fish,noturus gyrinus,Tadpole Madtom (Noturus gyrinus),2021,2025,Tadpole Madtom (
 Fish,oligocottus maculosus,"Sculpins, Tidepool (Oligocottus maculosus)",2019,2025,"Sculpins, Tidepool (Oligocottus maculosus)"
 Fish,oligocottus rimensis,"Sculpins, Saddleback (Oligocottus rimensis)",2021,2021,"Sculpins, Saddleback (Oligocottus rimensis)"
 Fish,oligocottus snyderi,"Sculpins, Fluffy (Oligocottus snyderi)",2025,2025,"Sculpins, Fluffy (Oligocottus snyderi)"
-Fish,oncorhynchus clarki,"Trout, Coastal Cutthroat (Oncorhynchus clarki)",2024,2024,"Trout, Cutthroat (Oncorhynchus clarki)"
-Fish,oncorhynchus clarki,"Trout, Cutthroat (Oncorhynchus clarki)",2020,2024,"Trout, Cutthroat (Oncorhynchus clarki)"
+Fish,oncorhynchus clarki,"Trout, Coastal Cutthroat (Oncorhynchus clarki)",2024,2024,"Trout, Coastal Cutthroat (Oncorhynchus clarki)"
+Fish,oncorhynchus clarki,"Trout, Cutthroat (Oncorhynchus clarki)",2020,2024,"Trout, Coastal Cutthroat (Oncorhynchus clarki)"
 Fish,oncorhynchus clarkii,"Trout, Coastal Cutthroat (Oncorhynchus clarkii)",2025,2025,"Trout, Coastal Cutthroat (Oncorhynchus clarkii)"
 Fish,oncorhynchus clarkii,"Trout, Cutthroat (Oncorhynchus clarkii)",2024,2025,"Trout, Coastal Cutthroat (Oncorhynchus clarkii)"
 Fish,oncorhynchus gorbuscha,"Salmon, Pink (Oncorhynchus gorbuscha)",2019,2025,"Salmon, Pink (Oncorhynchus gorbuscha)"
@@ -1353,8 +1353,8 @@ Fish,petrocephalus catostoma,Churchill (Petrocephalus catostoma),2019,2022,Churc
 Fish,petrocephalus degeni,(Petrocephalus degeni),2023,2024,(Petrocephalus degeni)
 Fish,petrocephalus degeni,"Mormyrids, Katonga River (Petrocephalus degeni)",2019,2019,(Petrocephalus degeni)
 Fish,petrochromis polyodon,"Cichlids, Brown Petrochromis (Petrochromis polyodon)",2025,2025,"Cichlids, Brown Petrochromis (Petrochromis polyodon)"
-Fish,petromyzon marinus,Lampreys (Petromyzon marinus),2019,2025,"Lampreys, Sea (Petromyzon marinus)"
-Fish,petromyzon marinus,"Lampreys, Sea (Petromyzon marinus)",2019,2025,"Lampreys, Sea (Petromyzon marinus)"
+Fish,petromyzon marinus,Lampreys (Petromyzon marinus),2019,2025,Lampreys (Petromyzon marinus)
+Fish,petromyzon marinus,"Lampreys, Sea (Petromyzon marinus)",2019,2025,Lampreys (Petromyzon marinus)
 Fish,petromyzontiformes,Lampreys (Petromyzontiformes),2024,2024,Lampreys (Petromyzontiformes)
 Fish,phanerodon furcatus,"Seaperch, White (Phanerodon furcatus)",2023,2023,"Seaperch, White (Phanerodon furcatus)"
 Fish,pholis fasciata,"Gunnels, Banded (Pholis fasciata)",2019,2019,"Gunnels, Banded (Pholis fasciata)"
@@ -1368,8 +1368,8 @@ Fish,piabucina elongata,Pencil Fish (Piabucina elongata),2022,2022,Pencil Fish (
 Fish,pickerel,Pickerel,2024,2024,Pickerel
 Fish,pimelodella geryi,Catfishes (Pimelodella geryi),2022,2023,Catfishes (Pimelodella geryi)
 Fish,pimelodus blochii,Catfishes (Pimelodus blochii),2019,2022,Catfishes (Pimelodus blochii)
-Fish,pimephales notatus,"Minnows, Bluntnose (Pimephales notatus)",2019,2025,"Minnows, Bluntnose (Pimephales notatus)"
-Fish,pimephales notatus,"Minnows, Round-snouted (Pimephales notatus)",2025,2025,"Minnows, Bluntnose (Pimephales notatus)"
+Fish,pimephales notatus,"Minnows, Bluntnose (Pimephales notatus)",2019,2025,"Minnows, Round-snouted (Pimephales notatus)"
+Fish,pimephales notatus,"Minnows, Round-snouted (Pimephales notatus)",2025,2025,"Minnows, Round-snouted (Pimephales notatus)"
 Fish,pimephales promelas,"Minnows, Fathead (Pimephales promelas)",2019,2025,"Minnows, Fathead (Pimephales promelas)"
 Fish,pipefish,Pipefish,2025,2025,Pipefish
 Fish,pipefishes,Pipefishes,2023,2023,Pipefishes
@@ -1628,8 +1628,8 @@ Mice,napaeozapus insignis,"Mice, Woodland Jumping (Napaeozapus insignis)",2019,2
 Mice,onychomys leucogaster,"Mice, Northern Grasshopper (Onychomys leucogaster)",2021,2021,"Mice, Northern Grasshopper (Onychomys leucogaster)"
 Mice,perognathinae,"Mice, Pocket (Perognathinae)",2024,2024,"Mice, Pocket (Perognathinae)"
 Mice,peromyscus leucopus,"Mice, White-footed (Peromyscus leucopus)",2019,2025,"Mice, White-footed (Peromyscus leucopus)"
-Mice,peromyscus maniculatus,"Mice, Deer (Peromyscus maniculatus)",2019,2025,"Mice, Eastern Deer (Peromyscus maniculatus)"
-Mice,peromyscus maniculatus,"Mice, Eastern Deer (Peromyscus maniculatus)",2025,2025,"Mice, Eastern Deer (Peromyscus maniculatus)"
+Mice,peromyscus maniculatus,"Mice, Deer (Peromyscus maniculatus)",2019,2025,"Mice, Deer (Peromyscus maniculatus)"
+Mice,peromyscus maniculatus,"Mice, Eastern Deer (Peromyscus maniculatus)",2025,2025,"Mice, Deer (Peromyscus maniculatus)"
 Mice,phyllotis vaccarum,"Mice, Punta de Vacas Leaf-eared (Phyllotis vaccarum)",2025,2025,"Mice, Punta de Vacas Leaf-eared (Phyllotis vaccarum)"
 Mice,steatomys pratensis,"Mice, Fat (Steatomys pratensis)",2019,2019,"Mice, Fat (Steatomys pratensis)"
 Mice,zapus hudsonius,"Mice, Meadow Jumping (Zapus hudsonius)",2019,2025,"Mice, Meadow Jumping (Zapus hudsonius)"
@@ -1847,8 +1847,8 @@ Other animals,lupulella adusta,"Jackals, Side-striped (Lupulella adusta)",2025,2
 Other animals,lupulella mesomelas,"Jackals, Black-backed (Lupulella mesomelas)",2025,2025,"Jackals, Black-backed (Lupulella mesomelas)"
 Other animals,lycaon pictus,African Wild Dog (Lycaon pictus),2025,2025,African Wild Dog (Lycaon pictus)
 Other animals,lynx canadensis,Lynx (Lynx canadensis),2019,2025,Lynx (Lynx canadensis)
-Other animals,lynx rufus,Bobcat (Lynx rufus),2019,2025,Bobcat (Lynx rufus)
-Other animals,lynx rufus,"Lynx, Red (Lynx rufus)",2024,2025,Bobcat (Lynx rufus)
+Other animals,lynx rufus,Bobcat (Lynx rufus),2019,2025,"Lynx, Red (Lynx rufus)"
+Other animals,lynx rufus,"Lynx, Red (Lynx rufus)",2024,2025,"Lynx, Red (Lynx rufus)"
 Other animals,macroglossus sobrinus,"Bats, Long-tongued Fruit (Macroglossus sobrinus)",2024,2024,"Bats, Long-tongued Fruit (Macroglossus sobrinus)"
 Other animals,macropus giganteus,"Kangaroos, Eastern Gray (Macropus giganteus)",2019,2025,"Kangaroos, Eastern Gray (Macropus giganteus)"
 Other animals,macrotus californicus,"Bats, California Leaf-nosed (Macrotus californicus)",2024,2024,"Bats, California Leaf-nosed (Macrotus californicus)"
@@ -2207,8 +2207,8 @@ Reptiles,apalone spinifera,"Turtles, Spiny Softshell (Apalone spinifera)",2019,2
 Reptiles,aristelliger lar,"Lizards, Geckos Hispaniolan Giant Croaking (Aristelliger lar)",2023,2023,"Lizards, Geckos Hispaniolan Giant Croaking (Aristelliger lar)"
 Reptiles,atheris squamigera,"Snakes, Viper African Bush (Atheris squamigera)",2024,2024,"Snakes, Viper African Bush (Atheris squamigera)"
 Reptiles,basiliscus galeritus,"Lizards, Western Basilisk (Basiliscus galeritus)",2019,2019,"Lizards, Western Basilisk (Basiliscus galeritus)"
-Reptiles,boa constrictor,"Snakes, Boa Constrictor (Boa constrictor)",2019,2025,"Snakes, Common Boa (Boa constrictor)"
-Reptiles,boa constrictor,"Snakes, Common Boa (Boa constrictor)",2025,2025,"Snakes, Common Boa (Boa constrictor)"
+Reptiles,boa constrictor,"Snakes, Boa Constrictor (Boa constrictor)",2019,2025,"Snakes, Boa Constrictor (Boa constrictor)"
+Reptiles,boa constrictor,"Snakes, Common Boa (Boa constrictor)",2025,2025,"Snakes, Boa Constrictor (Boa constrictor)"
 Reptiles,bothrops asper,"Snakes, Fer-de-lance (Bothrops asper)",2019,2019,"Snakes, Fer-de-lance (Bothrops asper)"
 Reptiles,caiman,Caiman,2021,2022,Caiman
 Reptiles,caretta caretta,"Turtles, Loggerhead (Caretta caretta)",2019,2021,"Turtles, Loggerhead (Caretta caretta)"

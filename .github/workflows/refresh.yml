@@ -35,12 +35,25 @@ jobs:
           .venv/bin/python -m olac.audit.its
           .venv/bin/python -m olac.db
           .venv/bin/dbt build --project-dir dbt --profiles-dir dbt
-      - name: Changelog entry
+      - name: Did any upstream file change?
+        id: upstream
         run: |
-          if ! git diff --quiet -- data/raw/manifest.json; then
-            echo "- $(date -u +%F): upstream change detected: $(git diff --name-only -- data/ | tr '\n' ' ')" >> CHANGELOG.md
+          if git diff --quiet -- data/raw/manifest.json; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "No upstream change; rebuild differences (if any) are not proposed."
+          else
+            echo "changed=true" >> "$GITHUB_OUTPUT"
           fi
+      - name: Changelog entry
+        if: steps.upstream.outputs.changed == 'true'
+        run: |
+          echo "- $(date -u +%F): upstream change detected: $(git diff --name-only -- data/ | tr '\n' ' ')" >> CHANGELOG.md
+      - name: Fail if any full-text fetch failed without a previous value
+        if: steps.upstream.outputs.changed == 'true'
+        run: |
+          .venv/bin/python -c "import pandas as pd, sys; c = pd.read_csv('data/processed/corpus.csv'); bad = c[~c.fetch_ok & (c.n_methods_chars == 0)]; print(len(bad), 'unrecovered fetch failures'); sys.exit(1 if len(bad) else 0)"
       - uses: peter-evans/create-pull-request@v6
+        if: steps.upstream.outputs.changed == 'true'
         with:
           title: "Data refresh: upstream sources changed"
           commit-message: "Data refresh from upstream sources"

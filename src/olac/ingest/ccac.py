@@ -169,7 +169,13 @@ def species_crosswalk(species: pd.DataFrame) -> pd.DataFrame:
     df["species_key"] = (
         df.scientific_name.fillna(df.species).str.lower().str.replace(r"\s+", " ", regex=True).str.strip()
     )
-    latest = df.sort_values("year").groupby(["animal_type", "species_key"]).species.last()
+    # Stable sort with a tie-breaker so the label chosen when one taxon has two spellings in the
+    # same year does not depend on row order (it used to flip between refresh runs).
+    latest = (
+        df.sort_values(["year", "species"], kind="stable")
+        .groupby(["animal_type", "species_key"])
+        .species.last()
+    )
     xw = (
         df.groupby(["animal_type", "species_key", "species"], as_index=False)
         .agg(first_year=("year", "min"), last_year=("year", "max"))

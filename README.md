@@ -38,6 +38,18 @@ Open data pipeline, analysis and public dashboard covering:
 Counting units differ between countries; see [docs/methods.md](docs/methods.md) and the conservative
 "lab genera, CI C-E" series in the chart.
 
+## Recommendation
+
+The cheapest fixes close the biggest gaps in the Transparency Index, so they come first:
+
+| Ask | Owner | Why it is first | Trade-off |
+|---|---|---|---|
+| Fix the 167 labelling/structure warnings and publish the tables as CSV | CCAC | No new data collection; it makes 15 years of reports usable | Staff time to re-issue past tables |
+| Publish counts by certified institution, starting with primates, dogs and cats | CCAC | The US already does this per facility; it is Canada's largest gap against GB and the EU | Institutions may resist being compared |
+| Make ARRIVE 2.0 reporting a condition of CIHR/NSERC animal-research funding | CIHR, NSERC | Reporting did not improve after ARRIVE 2.0 was published; voluntary guidance has not worked | Adds a compliance check to grant review |
+
+The full list with sources is in the [policy brief](policy/policy_brief.md).
+
 ## Outputs
 
 | Output | Where |

@@ -142,9 +142,31 @@ def fetch_fulltext(pmcid: str) -> dict | None:
     except etree.XMLSyntaxError:
         return None
     doc = {"methods": methods, "body": body}
-    path.write_text(json.dumps(doc))
+    tmp = path.with_suffix(".json.tmp")
+    tmp.write_text(json.dumps(doc))
+    tmp.replace(path)  # atomic: an interrupted run can't leave a corrupt cache file
     time.sleep(0.3)
     return doc
+
+
+def _keep_previous_on_failure(meta: pd.DataFrame) -> pd.DataFrame:
+    """A failed fetch must not overwrite a paper's earlier result with 0 characters.
+
+    If a previous corpus.csv exists, rows whose fetch failed this run take their text-derived
+    columns from the previous file. Rows with no earlier result stay as failures (fetch_ok=False)
+    so they can be told apart from papers that genuinely have a short methods section.
+    """
+    prev_path = PROCESSED / "corpus.csv"
+    if not prev_path.exists():
+        return meta
+    prev = pd.read_csv(prev_path).set_index("pmcid")
+    cols = ["n_methods_chars", "uses_nhp", "is_neuro", "has_methods"]
+    for i in meta.index[~meta.fetch_ok]:
+        pmcid = meta.at[i, "pmcid"]
+        if pmcid in prev.index and all(c in prev.columns for c in cols):
+            for c in cols:
+                meta.at[i, c] = prev.at[pmcid, c]
+    return meta
 
 
 def run(limit: int | None = None) -> pd.DataFrame:
@@ -168,6 +190,7 @@ def run(limit: int | None = None) -> pd.DataFrame:
     with ThreadPoolExecutor(max_workers=6) as pool:
         docs = list(pool.map(_safe, meta.pmcid))
     n_chars, uses, neuro = [], [], []
+    meta["fetch_ok"] = [doc is not None for doc in docs]
     for doc in docs:
         m = (doc or {}).get("methods") or (doc or {}).get("body", "")
         n_chars.append(len(m))
@@ -177,6 +200,10 @@ def run(limit: int | None = None) -> pd.DataFrame:
     meta["uses_nhp"] = uses
     meta["is_neuro"] = neuro
     meta["has_methods"] = meta.n_methods_chars > 500
+    meta = _keep_previous_on_failure(meta)
+    n_failed = int((~meta.fetch_ok).sum())
+    if n_failed:
+        print(f"[warn] {n_failed} full-text fetches failed; kept previous values where available")
     meta.to_csv(PROCESSED / "corpus.csv", index=False)
     inc = meta[meta.uses_nhp & meta.has_methods]
     print(f"{len(inc)} papers with NHP subjects and a methods section ({int(inc.is_neuro.sum())} neuroscience); by year:")

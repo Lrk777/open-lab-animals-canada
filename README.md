@@ -1,5 +1,7 @@
 # Open Lab Animals Canada
 
+**Live dashboard: [lrk777.github.io/open-lab-animals-canada](https://lrk777.github.io/open-lab-animals-canada/)**
+
 **Canada has no public, machine-readable data on animals used in science. This project builds it,
 audits it, and measures how Canada compares.**
 
